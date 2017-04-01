@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video.js | HTML5 Video Player</title>
+
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link href="video-js/video-js.css" rel="stylesheet">
+    <script src="video-js/video.js"></script>
+    <script src="video-js/videojs-contrib-hls.min.js"></script>
+    <script>
+        videojs.options.flash.swf = "video-js/video-js.swf"
+    </script>
+</head>
+<body>
+<center>
+    <video id="live-stream" class="video-js vjs-default-skin vjs-big-play-centered"
+           controls autoplay preload="auto"
+           poster="videodemo.png"
+           data-setup='{"example_option":true}'>
+        <source src="http://vwww.nginx.com/live/123456/index.m3u8"
+                type="application/x-mpegURL">
+    </video>
+</center>
+
+<script>
+    var options = {
+        width: 1080,
+        height: 520
+    }
+    var player = videojs('live-stream', options);
+
+    player.on(['loadstart', 'play', 'playing', 'firstplay', 'pause', 'ended', 'adplay', 'adplaying', 'adfirstplay', 'adpause', 'adended', 'contentplay', 'contentplaying', 'contentfirstplay', 'contentpause', 'contentended', 'contentupdate'], function (e) {
+        console.warn('VIDEOJS player event: ', e.type);
+    });
+</script>
+<script type="application/javascript">
+    function foo(n) {
+        return function (i) {
+            return n += i;
+        }
+    }
+    console.log(foo(10)(20));
+</script>
+</body>
+</html>
+
