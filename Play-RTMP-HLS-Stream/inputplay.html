@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>用户自定义地址去播放视频</title>
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <style type="text/css">
+        html, body {
+            height: 100%
+        }
+
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        html, body {
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            height: 100%;
+            font-size: 62.5%;
+        }
+    </style>
+</head>
+<body>
+<div class="container" style="width: 1110px; height: 960px;">
+    <div class="row">
+        <div class="col-lg-12  clearfix-context">
+             <div class="input-group" style="margin-top: 10px;">
+                <input type="text" name="stream_address" id="stream_address" required autofocus
+                       placeholder="input RTMP or HLS Stream Address 注意不要含有空格" class="form-control">
+                <span class="input-group-btn input-btn">
+                    <button class="btn btn-default" id="form_button" type="button">提交</button>
+                </span>
+            </div>
+            <div>
+                <video id="video-player"></video>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="swfobject.js"></script> <!--必须的的-->
+<script type="text/javascript">
+    $(function () {
+        default_stream_address = "rtmp://live.hkstv.hk.lxdns.com/live/hks";
+        playLiveChannel(default_stream_address);
+
+        $("#form_button").click(function () {
+            var msg = $("#msg");
+            var stream_address = $('input[name="stream_address"] ').val();
+            if (stream_address == "") {
+                $('#stream_address ').css("border", "1px #ff0000 solid");
+                msg.text("请输入媒体流地址");
+                msg.addClass("warning");
+                return false;
+            } else {
+                $('#stream_address').css("border", "1px #ff00ff solid");
+                msg.text("");
+                msg.removeClass("warning");
+            }
+            $('#stream_address_code ').html("\"" + stream_address + "\"");
+            playLiveChannel(stream_address);
+        });
+    });
+
+    var $URL = "./";
+    function playLiveChannel(src) {
+        var swfPlayer = new SWFPlayer("video-container", "video-player", "1080", "860", "");
+        swfPlayer.reload(src);
+    }
+
+    var SWFPlayer = function (_parent_id, _player_id, _width, _height, _poster) {
+        var parent_id = _parent_id;
+        var player_id = _player_id;
+        var width = _width;
+        var height = _height;
+        var poster = _poster;
+
+        function createPlayer(src) {
+            var parameters = {
+                src: src,
+                autoPlay: "true",
+                verbose: "true",
+                controlBarAutoHide: "true",
+                controlBarPosition: "bottom",
+                poster: poster,
+                plugin_hls: $URL + "HLSDynamicPlugin.swf"
+            };
+            var wmodeValue = "transparent";
+            swfobject.embedSWF(
+                $URL + "StrobeMediaPlayback.swf"
+                , player_id
+                , width
+                , height
+                , "11"
+                , $URL + "expressInstall.swf"
+                , parameters
+                , {
+                    allowFullScreen: "true",
+                    wmode: wmodeValue
+                }
+                , {
+                    name: player_id
+                }
+            );
+        };
+        createPlayer("");
+        this.reload = function (src) {
+            createPlayer(src);
+        };
+    };
+
+</script>
+</body>
+</html>
