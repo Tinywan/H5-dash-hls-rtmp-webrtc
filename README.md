@@ -1,7 +1,8 @@
 ## Html5-m3u8
 
 #### M3U8 直播或者点播DEMO
-
++ VideoJs-M3U8 
+    > 支持直播流：HSL的 m3u8     
 #### RTMP and M3U8 直播
 + Play-RTMP-HLS-Stream 
     > 支持直播流：播放RTMP直播流和HSL直播流   
