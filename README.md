@@ -11,9 +11,10 @@
 + 皮肤支持
     + [官方皮肤](http://www.scriptsmashup.com/Video_Skin_Generator/Videojs/videojs-skin-generator.html)
     + YouTouBe
-    ![YouTouBe](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/YouTouBe.jpg)
-    + facebook-player
-    ![facebook-player](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/facebook.jpg)
+        + ![YouTouBe](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/YouTouBe.jpg)
+    
+    + facebook-player   
+        + ![facebook-player](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/facebook.jpg)
 
 + m3u8-IE-Support    
     + [x] 兼容所有浏览器
