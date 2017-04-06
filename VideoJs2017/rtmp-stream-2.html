@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RTMP Stream Play</title>
+    <link href="videojs/video-js.css" rel="stylesheet">
+</head>
+<body>
+<center>
+    <video id="live-stream" class="video-js vjs-default-skin vjs-big-play-centered"
+           data-setup='{"example_option":true}'>
+        poster="image/video-background.jpg" data-setup='{"example_option":true}'>
+    </video>
+</center>
+<script src="videojs/video.js"></script>
+<script>
+    var options = {
+        width: 1080,
+        height: 520,
+        poster:"image/video-background.jpg",
+        autoplay: true,
+        controls:true,
+        loop:true,
+        preload:'auto',
+//        plugins: {
+//            foo: {bar: true},
+//            boo: {baz: false}
+//        },
+        sourceOrder: true,
+        sources: [{
+            src: 'rtmp://192.168.18.143/live/123?wsSecret=e2112a78822bf4ea9cdb3989e114344c&wsTime=1479196093',
+            type: 'application/x-mpegURL'
+        }, {
+            src: '//path/to/video.webm',
+            type: 'video/webm'
+        }],
+        techOrder: ['html5', 'flash']
+
+
+    }
+    var player = videojs('live-stream', options);
+
+    player.addClass('vjs-matrix');
+
+    player.on(['loadstart', 'play', 'playing', 'firstplay', 'pause', 'ended', 'adplay', 'adplaying', 'adfirstplay', 'adpause', 'adended', 'contentplay', 'contentplaying', 'contentfirstplay', 'contentpause', 'contentended', 'contentupdate'], function (e) {
+//        console.warn('VIDEOJS player event: ', e.type);
+        if (e.type == "play") {
+            console.log('开始播放');
+        } else if (e.type == "playing") {
+            console.log('正在播放...');
+        } else if (e.type == "pause") {
+            console.log('暂停视频播放');
+        } else if (e.type == "firstplay") {
+            console.log('firstplay播放');
+        } else {
+            console.log('1111111111111');
+        }
+    });
+
+</script>
+</body>
+</html>
+
