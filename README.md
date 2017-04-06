@@ -8,6 +8,13 @@
     > 4、HLS延迟：15s  
     > 5、鉴权：可以      
 
++ 皮肤支持
+    + [官方皮肤](https://github.com/videojs/video.js/wiki/Skins)
+
++ m3u8-IE-Support    
+    [x] 支持IE11 浏览器播放  
+    [x] 测试结果：通过  
+
 #### RTMP and M3U8 直播
 + Play-RTMP-HLS-Stream 
     > 1、支持直播流：播放RTMP直播流和HSL直播流   

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> HLS Stream </title>
+    <link href="videojs/video-js.css" rel="stylesheet">
+    <!-- If you'd like to support IE8 -->
+    <script src="videojs/videojs-ie8.min.js"></script>
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="videojs/videojs-contrib-hls.min.js"></script>
+    <script src="videojs/video.js"></script>
+    <script>
+        videojs.options.flash.swf = "videojs/video-js.swf"
+    </script>
+</head>
+
+<body>
+
+<video id=example-video width=600 height=300 class="video-js vjs-default-skin" controls>
+    <source
+            src="http://192.168.18.143/live/123/index.m3u8?wsSecret=e2112a78822bf4ea9cdb3989e114344c&wsTime=1479196093"
+            type="application/x-mpegURL">
+</video>
+
+<script>
+    var options = {
+        width: 1080,
+        height: 520
+    }
+    var player = videojs('example-video',options);
+    player.play();
+    player.on(['loadstart', 'play', 'playing', 'firstplay', 'pause', 'ended', 'adplay', 'adplaying', 'adfirstplay', 'adpause', 'adended', 'contentplay', 'contentplaying', 'contentfirstplay', 'contentpause', 'contentended', 'contentupdate'], function (e) {
+        console.warn('VIDEOJS player event: ', e.type);
+    });
+</script>
+
+</body>
+</html>
+
