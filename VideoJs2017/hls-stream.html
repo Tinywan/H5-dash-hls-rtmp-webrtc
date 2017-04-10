@@ -8,23 +8,7 @@
     <link href="videojs/video-js.css" rel="stylesheet">
     <script src="videojs/video.js"></script>
     <script src="videojs/videojs-contrib-hls.min.js"></script>
-    <style type="text/css">
-        .vjs-matrix.video-js {
-            color: #00ff00;
-        }
-
-        /* Change the border of the big play button. */
-        .vjs-matrix .vjs-big-play-button {
-            border-color: #00ff00;
-        }
-
-        /* Change the color of various "bars". */
-        .vjs-matrix .vjs-volume-level,
-        .vjs-matrix .vjs-play-progress,
-        .vjs-matrix .vjs-slider-bar {
-            background: #00ff00;
-        }
-    </style>
+    <link rel="stylesheet" href="./Skins/YouTouBe.css">
 </head>
 <body>
 <center>
@@ -32,7 +16,7 @@
            controls autoplay preload="auto"
            poster="image/video-background.jpg"
            data-setup='{"example_option":true}'>
-        <source src="http://192.168.18.143/live/123/index.m3u8?wsSecret=e2112a78822bf4ea9cdb3989e114344c&wsTime=1479196093"
+        <source src="http://192.168.18.143/live/stream_123/index.m3u8?wsSecret=e2112a78822bf4ea9cdb3989e114344c&wsTime=1479196093"
                 type="application/x-mpegURL">
     </video>
 </center>
