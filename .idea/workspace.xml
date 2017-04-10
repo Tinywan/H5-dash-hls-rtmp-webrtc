@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e498f0f5-437f-4f78-a16c-904994e1efb6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VideoJs2017/rtmp-stream-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VideoJs2017/hls-stream.html" afterPath="$PROJECT_DIR$/VideoJs2017/hls-stream.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VideoJs2017/rtmp-stream.html" afterPath="$PROJECT_DIR$/VideoJs2017/rtmp-stream.html" />
-    </list>
+    <list default="true" id="e498f0f5-437f-4f78-a16c-904994e1efb6" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +16,7 @@
         <entry file="file://$PROJECT_DIR$/VideoJs2017/rtmp-stream.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="4" column="53" lean-forward="true" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+              <caret line="4" column="53" lean-forward="false" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -32,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/VideoJs2017/rtmp-stream-2.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="684">
-              <caret line="277" column="9" lean-forward="false" selection-start-line="277" selection-start-column="9" selection-end-line="277" selection-end-column="9" />
+              <caret line="281" column="9" lean-forward="false" selection-start-line="281" selection-start-column="9" selection-end-line="281" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -143,7 +137,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/wnmp/www/amai-sewise" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -236,12 +230,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491463816434</updated>
-      <workItem from="1491463818381" duration="7254000" />
+      <workItem from="1491463818381" duration="7866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7254000" />
+    <option name="totallyTimeSpent" value="7866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
@@ -323,7 +317,7 @@
     <entry file="file://$PROJECT_DIR$/VideoJs2017/rtmp-stream.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="53" lean-forward="true" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+          <caret line="4" column="53" lean-forward="false" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
           <folding />
         </state>
       </provider>
@@ -339,7 +333,7 @@
     <entry file="file://$PROJECT_DIR$/VideoJs2017/rtmp-stream-2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
-          <caret line="277" column="9" lean-forward="false" selection-start-line="277" selection-start-column="9" selection-end-line="277" selection-end-column="9" />
+          <caret line="281" column="9" lean-forward="false" selection-start-line="281" selection-start-column="9" selection-end-line="281" selection-end-column="9" />
           <folding />
         </state>
       </provider>
