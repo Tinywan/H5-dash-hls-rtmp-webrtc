@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e498f0f5-437f-4f78-a16c-904994e1efb6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VideoJs2017/auto-input-hls-player.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VideoJs2017/test/crossdomain.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VideoJs2017/test/sources01.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VideoJs2017/hls-stream.html" afterPath="$PROJECT_DIR$/VideoJs2017/hls-stream.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VideoJs2017/rtmp-stream-2.html" afterPath="$PROJECT_DIR$/VideoJs2017/rtmp-stream-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VideoJs2017/rtmp-stream.html" afterPath="$PROJECT_DIR$/VideoJs2017/rtmp-stream.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,8 +46,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="378">
-                <caret line="36" column="44" lean-forward="false" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="44" />
+              <first_editor relative-caret-position="1134">
+                <caret line="63" column="2" lean-forward="true" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -269,12 +263,20 @@
       <updated>1491463816434</updated>
       <workItem from="1491463818381" duration="7866000" />
       <workItem from="1491815818748" duration="1822000" />
-      <workItem from="1491873297002" duration="7810000" />
+      <workItem from="1491873297002" duration="7995000" />
     </task>
+    <task id="LOCAL-00001" summary="直播和点播HLS的M3U8播放(可输入动态改变HLS地址)，解决js跨域问题">
+      <created>1491881434440</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1491881434440</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17498000" />
+    <option name="totallyTimeSpent" value="17683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
@@ -304,6 +306,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="直播和点播HLS的M3U8播放(可输入动态改变HLS地址)，解决js跨域问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="直播和点播HLS的M3U8播放(可输入动态改变HLS地址)，解决js跨域问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -453,8 +459,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="378">
-            <caret line="36" column="44" lean-forward="false" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="44" />
+          <first_editor relative-caret-position="1134">
+            <caret line="63" column="2" lean-forward="true" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
             <folding />
           </first_editor>
           <second_editor />
