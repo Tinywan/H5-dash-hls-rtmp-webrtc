@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>player.src 自定义使用</title>
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link href="../videojs/video-js.css" rel="stylesheet">
+    <script src="../videojs/video.js"></script>
+    <script src="../videojs/videojs-contrib-hls.min.js"></script>
+</head>
+<body>
+<center>
+    <h2>HLS JavaScript 的跨域测试</h2>
+    <video id=example-video width=600 height=300 class="video-js vjs-default-skin" controls>
+
+    </video>
+    <div class="input-group" style="margin-top: 10px; width: 740px;">
+        <input type="text" name="stream_address" id="stream_address" required autofocus
+               placeholder="input HLS Stream Address 注意不要含有空格" class="form-control">
+        <span class="input-group-btn input-btn">
+                    <button class="btn btn-default" id="form_button" type="button">提交</button>
+                </span>
+    </div>
+</center>
+<script type="text/javascript">
+    var default_hls_address = 'http://192.168.18.143/record/stream_123-149181062720170410155027/index.m3u8';
+    var options = {
+        width: 1080,
+        height: 520,
+        poster: "../image/video-background.jpg",
+        autoplay: true,
+        controls: true,
+        loop: true,
+        preload: 'auto',
+        sourceOrder: true,
+        sources: [{
+            src: default_hls_address,
+            type: 'application/x-mpegURL'
+        }, {
+            src: '//path/to/video.webm',
+            type: 'video/webm'
+        }],
+        techOrder: ['html5', 'flash'],
+        flash: {
+            swf: 'videojs/video-js.swf'
+        }
+    }
+    var player = videojs('example-video', options);
+    player.addClass('vjs-matrix');
+    player.on(['loadstart', 'play', 'playing', 'firstplay', 'pause', 'ended', 'adplay', 'adplaying', 'adfirstplay', 'adpause', 'adended', 'contentplay', 'contentplaying', 'contentfirstplay', 'contentpause', 'contentended', 'contentupdate'], function (e) {
+//        console.warn('VIDEOJS player event: ', e.type);
+        if (e.type == "play") {
+            console.log('开始播放');
+        } else if (e.type == "playing") {
+            console.log('正在播放...');
+        } else if (e.type == "pause") {
+            console.log('暂停视频播放');
+        } else if (e.type == "firstplay") {
+            console.log('firstplay播放');
+        } else {
+            console.log('1111111111111');
+        }
+    });
+    $(function () {
+        $("#form_button").click(function () {
+            var msg = $("#msg");
+            stream_address = $('input[name="stream_address"] ').val();
+            console.log(stream_address);
+            if (stream_address == "") {
+                $('#stream_address ').css("border", "1px #ff0000 solid");
+                msg.text("请输入媒体流地址");
+                msg.addClass("warning");
+                return false;
+            } else {
+                $('#stream_address').css("border", "1px #ff00ff solid");
+                msg.text("error");
+                msg.removeClass("warning");
+            }
+            $('#stream_address_code ').html("\"" + stream_address + "\"");
+            player.src({
+                src:stream_address,
+                type:"application/x-mpegURL"
+            });
+        });
+    });
+    console.log(stream_address);
+</script>
+</body>
+</html>

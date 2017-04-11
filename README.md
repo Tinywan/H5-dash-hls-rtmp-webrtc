@@ -31,6 +31,31 @@
         + [x] RTMP 延迟：2s   
         + [x] HLS 延迟： 18s 
         + [x] VLC 延迟(不推荐)： 18s 
+    + 测试播放列表
+         + [1] RTMP直播流：`rtmp-stream.html`
+         + [2] HLS直播和点播：`hls-stream.html`
+         + [3] 直播和点播HLS的M3U8播放(可输入动态改变HLS地址)：`auto-input-hls-player.html`
+            + 遇到JS跨域的问题：
+                - `The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'. Origin 'http://127.0.0.1`
+            + 解决办法(Nginx 服务器配置方法，Apache自行百度)：
+            ```
+            location /record {
+                add_header Cache-Control no-cache;
+                add_header 'Access-Control-Allow-Origin' '*' always;
+                add_header 'Access-Control-Expose-Headers' 'Content-Length,Content-Range';
+                add_header 'Access-Control-Allow-Headers' 'Range';
+                types{
+                        application/dash+xml mpd;
+                        application/vnd.apple.mpegurl m3u8;
+                        video/mp2t ts;
+                 }
+                alias /home/tinywan/hls;
+             }
+
+            ```
+            + 测试地址：`http://192.168.18.143/record/stream_name/index.m3u8`
+                
+            
     + [x] 测试进度
         + [2017年4月10日 下午 16:00 ] 局域网的HSL和RTMP流延迟的测试
             > 测试结果：RTMP 延迟：2s ，HLS 延迟： 18s    

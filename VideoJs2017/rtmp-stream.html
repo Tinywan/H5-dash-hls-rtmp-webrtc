@@ -10,7 +10,7 @@
          poster="image/video-background.jpg"
          data-setup='{"example_option":true}'>
   poster="image/video-background.jpg" data-setup='{"example_option":true}'>
-    <source src="rtmp://192.168.18.143/live/stream_123?wsSecret=e2112a78822bf4ea9cdb3989e114344c&wsTime=1479196093" type="application/x-mpegURL">
+    <source src="rtmp://192.168.18.143/live/123456789?wsSecret=e2112a78822bf4ea9cdb3989e114344c&wsTime=1479196093" type="application/x-mpegURL">
   </video>
   </center>
   <script src="videojs/video.js"></script>
@@ -20,7 +20,6 @@
           height: 520
       }
       var player = videojs('live-stream', options);
-
       player.addClass('vjs-matrix');
 
       player.on(['loadstart', 'play', 'playing', 'firstplay', 'pause', 'ended', 'adplay', 'adplaying', 'adfirstplay', 'adpause', 'adended', 'contentplay', 'contentplaying', 'contentfirstplay', 'contentpause', 'contentended', 'contentupdate'], function (e) {
