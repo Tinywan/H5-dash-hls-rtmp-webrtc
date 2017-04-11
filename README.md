@@ -76,6 +76,10 @@
         + [2017年4月10日 下午 16:00 ] 局域网的HSL和RTMP流延迟的测试
             > 测试结果：RTMP 延迟：3s ，HLS 延迟： 20s 
 
+#### Video-dev-Hls
+   + [https://github.com/video-dev/hls.js](https://github.com/video-dev/hls.js)
+   + 测试案例
+    
 #### (Push)Play-RTMP-Info (功能比较强大)
 + 播放RTMP直播流,同时显示直播流的详细信息
     ![Markdown](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/push-rtmp-play-rtmp-html.png)
