@@ -59,6 +59,7 @@
     + [x] 测试进度
         + [2017年4月10日 下午 16:00 ] 局域网的HSL和RTMP流延迟的测试
             > 测试结果：RTMP 延迟：2s ，HLS 延迟： 18s    
+        + [2017年4月11日 下午 13:00 ] 直播和点播HLS的M3U8播放(可输入动态改变HLS地址),JS 跨域问题    
 
 #### RTMP and M3U8 直播
 + Play-RTMP-HLS-Stream(Obj-Flash) 
