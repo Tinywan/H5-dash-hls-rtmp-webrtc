@@ -19,12 +19,12 @@
         <input type="text" name="stream_address" id="stream_address" required autofocus
                placeholder="input HLS Stream Address 注意不要含有空格" class="form-control">
         <span class="input-group-btn input-btn">
-                    <button class="btn btn-default" id="form_button" type="button">提交</button>
+                    <button class="btn btn-default" id="form_button" type="button" onclick="a()">提交</button>
                 </span>
     </div>
 </center>
 <script type="text/javascript">
-    var default_hls_address = 'http://192.168.18.143/record/stream_123-149181062720170410155027/index.m3u8';
+    var default_hls_address = 'http://192.168.18.143/live/stream008/index.m3u8';
     var options = {
         width: 1080,
         height: 520,
@@ -62,29 +62,30 @@
             console.log('1111111111111');
         }
     });
-    $(function () {
-        $("#form_button").click(function () {
-            var msg = $("#msg");
-            stream_address = $('input[name="stream_address"] ').val();
-            console.log(stream_address);
-            if (stream_address == "") {
-                $('#stream_address ').css("border", "1px #ff0000 solid");
-                msg.text("请输入媒体流地址");
-                msg.addClass("warning");
-                return false;
-            } else {
-                $('#stream_address').css("border", "1px #ff00ff solid");
-                msg.text("error");
-                msg.removeClass("warning");
-            }
-            $('#stream_address_code ').html("\"" + stream_address + "\"");
-            player.src({
-                src:stream_address,
-                type:"application/x-mpegURL"
-            });
-        });
-    });
+
     console.log(stream_address);
+
+    function a() {
+        var msg = $("#msg");
+        stream_address = $('input[name="stream_address"] ').val();
+        console.log(stream_address);
+        if (stream_address == "") {
+            $('#stream_address ').css("border", "1px #ff0000 solid");
+            msg.text("请输入媒体流地址");
+            msg.addClass("warning");
+            return false;
+        } else {
+            $('#stream_address').css("border", "1px #ff00ff solid");
+            msg.text("error");
+            msg.removeClass("warning");
+        }
+        $('#stream_address_code ').html("\"" + stream_address + "\"");
+        player.src({
+            src: stream_address,
+            type: "application/x-mpegURL",  // 这个不加载直接播放不了的
+            withCredentials: true
+        });
+    }
 </script>
 </body>
 </html>

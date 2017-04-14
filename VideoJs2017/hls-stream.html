@@ -9,6 +9,8 @@
     <script src="videojs/video.js"></script>
     <script src="videojs/videojs-contrib-hls.min.js"></script>
     <link rel="stylesheet" href="./Skins/YouTouBe.css">
+    <!-- If you'd like to support IE8 -->
+    <script src="videojs/videojs-ie8.min.js"></script>
 </head>
 <body>
 <center>
@@ -17,10 +19,16 @@
            controls autoplay preload="auto"
            poster="image/video-background.jpg"
            data-setup='{"example_option":true}'>
-        <source src="http://192.168.18.143/live/123456789/index.m3u8?wsSecret=e2112a78822bf4ea9cdb3989e114344c&wsTime=1479196093"
+        <source src="http://192.168.18.143/live/stream8989/index.m3u8?tel=13669361192&code=808080"
                 type="application/x-mpegURL">
     </video>
     <h5><a href="https://github.com/videojs/videojs-contrib-hls">https://github.com/videojs/videojs-contrib-hls</a></h5>
+    <input type="button" class="player-play" value="播放" />
+    <input type="button" class="player-stop" value="停止" />
+    <input type="button" class="player-status" value="取得状态" />
+    <input type="button" class="player-current" value="当前播放秒数" />
+    <input type="button" class="player-goto" value="转到第600秒播放" />
+    <input type="button" class="player-length" value="视频时长(秒)" /><br/>
 </center>
 
 <script>
@@ -34,17 +42,57 @@
 
     player.on(['loadstart', 'play', 'playing', 'firstplay', 'pause', 'ended', 'adplay', 'adplaying', 'adfirstplay', 'adpause', 'adended', 'contentplay', 'contentplaying', 'contentfirstplay', 'contentpause', 'contentended', 'contentupdate'], function (e) {
 //        console.warn('VIDEOJS player event: ', e.type);
-        if(e.type == "play"){
-            console.log('开始播放');
-        }else if(e.type == "playing"){
-            console.log('正在播放...');
-        }else if(e.type == "pause"){
-            console.log('暂停视频播放');
-        }else if(e.type == "firstplay"){
-            console.log('firstplay播放');
-        }else{
-            console.log('1111111111111');
+//        if(e.type == "play"){
+//            console.log('开始播放');
+//        }else if(e.type == "playing"){
+//            console.log('正在播放...');
+//        }else if(e.type == "pause"){
+//            console.log('暂停视频播放');
+//        }else if(e.type == "firstplay"){
+//            console.log('firstplay播放');
+//        }else{
+//            console.log('1111111111111');
+//        }
+    });
+    player.one('canplay', function() {
+        console.log('player11111111111111');
+    });
+    console.log("暂停播放测哦错"+player.pause())
+    console.log("暂停播放测哦错"+player.currentTime())
+    /**
+     * 获取状态
+     * state值：1.playing播放中 2.paused停止 3.idle空闲 4. completed结束
+     */
+    $('.player-status').click(function () {
+        var state = player.getState();
+        console.log(state);
+        var msg;
+        switch (state){
+            case 'buffering':
+                msg = '加载中...';
+                break;
+            case 'playing':
+                msg = '播放中...';
+                break;
+            case 'paused':
+                msg = '暂停';
+                break;
+            case 'idle':
+                msg = '停止';
+                break;
+            case 'completed':
+                msg = '结束';
+                break;
         }
+        alert(msg);
+    });
+    //停止
+    $('.player-stop').click(function () {
+        player.pause();
+    });
+    //播放
+    $('.player-play').click(function () {
+       console.log('11111111'+ player.currentTime());
     });
 
 </script>
