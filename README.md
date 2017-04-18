@@ -1,4 +1,6 @@
-## Html5-m3u8
+### 更新进度
++   2017年04月18日 星期二 [解决VideoJs阿里云直播和点播跨域问题](http://www.cnblogs.com/tinywan/p/6234463.html)
+### 详细介绍
 #### 以下测试延迟多为局域网测试环境
 #### M3U8 直播或者点播DEMO
 + **VideoJs-M3U8**
