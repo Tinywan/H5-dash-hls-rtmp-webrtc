@@ -1,8 +1,8 @@
 ### 更新进度
 +   2017年04月18日 星期二 [解决VideoJs阿里云直播和点播跨域问题](http://www.cnblogs.com/tinywan/p/6234463.html)
 ### 详细介绍
-#### 以下测试延迟多为局域网测试环境
-#### M3U8 直播或者点播DEMO
++   以下测试延迟多为局域网测试环境（线上为阿里云平台测试）
++   M3U8 直播或者点播DEMO
 + **VideoJs-M3U8**
     + [x] 1、支持直播流：HSL的 m3u8   
     + [x] 2、如何使用：直接下载即可使用,注意点： m3u8 播放必须放在服务器下面  
@@ -12,14 +12,14 @@
         + [x] HLS 延迟： 18s 
         + [x] VLC 延迟(不推荐)： 18s  
     + [x] 5、鉴权：可以      
+    + [x] 皮肤支持
+        + [官方皮肤](http://www.scriptsmashup.com/Video_Skin_Generator/Videojs/videojs-skin-generator.html)
+        + YouTouBe
+            + ![YouTouBe](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/YouTouBe.jpg)
+        
+        + facebook-player   
+            + ![facebook-player](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/facebook.jpg)
 
-+ **皮肤支持**
-    + [官方皮肤](http://www.scriptsmashup.com/Video_Skin_Generator/Videojs/videojs-skin-generator.html)
-    + YouTouBe
-        + ![YouTouBe](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/YouTouBe.jpg)
-    
-    + facebook-player   
-        + ![facebook-player](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/facebook.jpg)
 
 + **m3u8-IE-Support**    
     + [x] 兼容所有浏览器

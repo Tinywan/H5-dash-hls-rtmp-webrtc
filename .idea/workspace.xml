@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e498f0f5-437f-4f78-a16c-904994e1efb6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crossdomain.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Play-RTMP-HLS-Stream/crossdomain.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Play-RTMP-HLS-Stream/inputplay.html" afterPath="$PROJECT_DIR$/Play-RTMP-HLS-Stream/inputplay.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Video-Dev-Hls/index.html" afterPath="$PROJECT_DIR$/Video-Dev-Hls/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VideoJs-M3U8/index.html" afterPath="$PROJECT_DIR$/VideoJs-M3U8/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VideoJs2017/hls-stream.html" afterPath="$PROJECT_DIR$/VideoJs2017/hls-stream.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VideoJs2017/rtmp-stream.html" afterPath="$PROJECT_DIR$/VideoJs2017/rtmp-stream.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m3u8-IE-Support/index.html" afterPath="$PROJECT_DIR$/m3u8-IE-Support/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,8 +62,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="18">
-                <caret line="1" column="42" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="42" />
+              <first_editor relative-caret-position="198">
+                <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -325,7 +317,7 @@
       <workItem from="1492132419720" duration="2536000" />
       <workItem from="1492417757224" duration="5205000" />
       <workItem from="1492476262218" duration="4677000" />
-      <workItem from="1492485838075" duration="2466000" />
+      <workItem from="1492485838075" duration="2725000" />
     </task>
     <task id="LOCAL-00001" summary="直播和点播HLS的M3U8播放(可输入动态改变HLS地址)，解决js跨域问题">
       <created>1491881434440</created>
@@ -362,11 +354,18 @@
       <option name="project" value="LOCAL" />
       <updated>1492163146843</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="解决VideoJs阿里云直播和点播跨域问题">
+      <created>1492490241945</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1492490241945</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58466000" />
+    <option name="totallyTimeSpent" value="58725000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
@@ -401,7 +400,8 @@
     <MESSAGE value="直播和点播HLS的M3U8播放(可输入动态改变HLS地址)，解决js跨域问题" />
     <MESSAGE value="直播和点播HLS的M3U8播放(可输入动态改变HLS地址)，通过修改Nginx配置信息，解决js跨域问题" />
     <MESSAGE value="Video-Dev-Hls 测试页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="Video-Dev-Hls 测试页面" />
+    <MESSAGE value="解决VideoJs阿里云直播和点播跨域问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决VideoJs阿里云直播和点播跨域问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -791,8 +791,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="18">
-            <caret line="1" column="42" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="42" />
+          <first_editor relative-caret-position="198">
+            <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
             <folding />
           </first_editor>
           <second_editor />
