@@ -14,23 +14,9 @@
 <body>
 <center>
     <h1>HLS 的M3U8 播放</h1>
-    <!--<video id="live-stream" class="video-js vjs-default-skin vjs-big-play-centered"-->
-           <!--controls autoplay preload="auto"-->
-           <!--poster="image/video-background.jpg"-->
-           <!--data-setup='{"example_option":true}'>-->
-        <!--&lt;!&ndash;<source src="http://tinywan.amai8.com/live/4001490605096.m3u8"&ndash;&gt;-->
-                <!--&lt;!&ndash;type="application/x-mpegURL">&ndash;&gt;-->
-    <!--</video>-->
-    <!--<h5><a href="https://github.com/videojs/videojs-contrib-hls">https://github.com/videojs/videojs-contrib-hls</a></h5>-->
-    <!--<input type="button" class="player-play" value="播放" />-->
-    <!--<input type="button" class="player-stop" value="停止" />-->
-    <!--<input type="button" class="player-status" value="取得状态" />-->
-    <!--<input type="button" class="player-current" value="当前播放秒数" />-->
-    <!--<input type="button" class="player-goto" value="转到第600秒播放" />-->
-    <!--<input type="button" class="player-length" value="视频时长(秒)" /><br/>-->
-    <video id=live-stream width=600 height=300 class="video-js vjs-default-skin" controls>
+    <video id=live-stream class="video-js vjs-default-skin" controls>
         <source
-                src="http://testlive.amaitech.com/live/4001492486660.m3u8?auth_key=1492487306-0-0-90080817068aa9a03d8d2c23709d6723"
+                src="http://tinywan.amai8.com/live/4001492050970.m3u8"
                 type="application/x-mpegURL">
     </video>
 </center>
@@ -38,8 +24,8 @@
 <script src="videojs/videojs-contrib-hls.min.js"></script>
 <script>
     var options = {
-        width: 1080,
-        height: 520
+        width: 240,
+        height: 360
     }
     var player = videojs('live-stream', options);
     player.play();
