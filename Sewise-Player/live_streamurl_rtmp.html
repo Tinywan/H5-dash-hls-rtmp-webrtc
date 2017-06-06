@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+	<title>RTMP src方式嵌入播放</title>
+	<style type="text/css">
+		body{
+			margin: 0px;
+			padding: 0px;
+		}
+	</style>
+</head>
+<body>
+<div style="width: 940px; height: 452px; margin-left: auto;margin-right: auto">
+	<script type="text/javascript" src="http://jackzhang1204.github.io/sewise/sewise_player/player/sewise.player.min.js"></script>
+	<script type="text/javascript">
+        SewisePlayer.setup({
+            server: "live",
+            type: "rtmp",
+            streamurl: "rtmp://live.hkstv.hk.lxdns.com/live/hks",
+            autostart: "true",
+            buffer: "5",
+            title: "RTMP src path",
+            lang: "zh_CN",
+            claritybutton: "disable",   //是否自动影藏导航栏
+            skin: "liveWhite",
+        });
+
+        SewisePlayer.playerReady(function(name){
+            console.log("Sewise Player On Ready 2");
+        });
+        function onStart(name){
+            console.log("onStart 1");
+        }
+        SewisePlayer.onStart(function(name){
+            console.log("onStart 2");
+        });
+	</script>
+</div>
+
+<div style="padding: 20px;float: left;margin-left: auto;margin-right: auto">
+	<h1>直播RTMP权限地址检测</h1>
+	<hr/>
+	<h3>API接口调用</h3>
+
+</div>
+<div style="padding-top: 20px;">
+	<div style="padding-right: 20px;float: left;">[点播接口]</div>
+	<div style="padding-right: 20px;float: left;"><a href="javascript:startPlay();">播放</a></div>
+	<div style="padding-right: 20px;float: left;"><a href="javascript:playPause();">暂停</a></div>
+	<div style="padding-right: 20px;float: left;"><a href="javascript:seekTo();">跳转</a></div>
+	<div style="padding-right: 20px;float: left;"><a href="javascript:playStop();">停止</a></div>
+	<div style="padding-right: 20px;float: left;"><a href="javascript:changeVolume();">更改音量</a></div>
+	<div style="padding-right: 20px;float: left;"><a href="javascript:getDuration();">获取总时长</a></div>
+	<div style="padding-right: 20px;float: left;"><a href="javascript:getPlayTime();">获取当前时间</a></div>
+	<!-- <div style="padding-right: 20px;float: left;"><a href="javascript:switchProgram();">切换节目</a></div> -->
+	<div style="padding-right: 20px;float: left;"><a href="javascript:switchVideo();">切换视频</a></div>
+	<br clear="all"/>
+</div>
+</body>
+</html>

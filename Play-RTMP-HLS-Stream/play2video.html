@@ -30,6 +30,12 @@
     </style>
 </head>
 <body>
+<div id="flashContent" >
+    dsfsdafads
+    flashContent
+    flashContent
+    flashContent
+</div>
 <h1>默认静音</h1>
 <div class="container" style="width: 520px; height: 360px; margin-bottom: 100px;">
     <div class="row">
@@ -48,11 +54,12 @@
     </div>
 </div>
 
+
 <script src="swfobject.js"></script> <!--必须的的-->
 <script type="text/javascript">
     $(function () {
         src1 = "rtmp://live.hkstv.hk.lxdns.com/live/hks";
-        src2 = "rtmp://zonelue2.amailive.com/live/4001483686566";
+        src2 = " ";
         el1 = "video-player";
         el2 = "video-player2";
         playVideo(src1, el1);
@@ -73,11 +80,15 @@
         var poster = _poster;
 
         function createPlayer(src) {
+
+            var swfVersionStr = "11.1.0";
+            var xiSwfUrlStr = $URL + "expressInstall.swf";
+
             var flashvars = {
                 src: src,
                 autoPlay: "true",
                 verbose: "true",
-                volume: "0",
+//                volume: "0",
                 controlBarAutoHide: "true",
                 controlBarPosition: "bottom",
                 poster: poster,
@@ -85,16 +96,21 @@
                 VolumeMenuButton: $URL + "HLSDynamicPlugin.swf",
                 javascriptCallbackFunction: "onJavaScriptBridgeCreated"
             };
+            flashvars.src = src;
+            flashvars.autoPlay = "true";
 
             var params = {
-                allowFullScreen: "true"
+                allowFullScreen: "true",
             };
 
-            var attributes = {
-                vmode: "transparent",
-                name: player_id
-            };
-            swfobject.embedSWF($URL + "StrobeMediaPlayback.swf", player_id, width, height, "11", $URL + "expressInstall.swf", flashvars, params, attributes);
+            var attributes = {};
+            attributes.mode = "transparent";
+            attributes.id = player_id;
+            attributes.name = player_id;
+            //attributes.align = "middle";
+
+            swfobject.embedSWF($URL + "StrobeMediaPlayback.swf", player_id, width, height, swfVersionStr, xiSwfUrlStr, flashvars, params, attributes);
+//            swfobject.createCSS(".container", "display:block;text-align:left;background-color: #3a9425;"); //背景颜色控制
         };
 
         this.reload = function (src) {
