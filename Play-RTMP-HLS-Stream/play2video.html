@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>用户自定义地址去播放视频</title>
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery-1.11.0.js"></script>
+    <style type="text/css">
+        html, body {
+            height: 100%
+        }
+
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        html, body {
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            height: 100%;
+            font-size: 62.5%;
+        }
+    </style>
+</head>
+<body>
+<h1>默认静音</h1>
+<div class="container" style="width: 520px; height: 360px; margin-bottom: 100px;">
+    <div class="row">
+        <div class="col-lg-6  clearfix-context">
+            <div>
+                <video id="video-player"></video>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6  clearfix-context">
+            <div>
+                <video id="video-player2"></video>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="swfobject.js"></script> <!--必须的的-->
+<script type="text/javascript">
+    $(function () {
+        src1 = "rtmp://live.hkstv.hk.lxdns.com/live/hks";
+        src2 = "rtmp://zonelue2.amailive.com/live/4001483686566";
+        el1 = "video-player";
+        el2 = "video-player2";
+        playVideo(src1, el1);
+        playVideo(src2, el2);
+    });
+
+    var $URL = "./";
+    function playVideo(src, el) {
+        var swfPlayer = new SWFPlayer("container", el, "520", "360", "12312.jpg");
+        swfPlayer.reload(src);
+    }
+
+    var SWFPlayer = function (_parent_id, _player_id, _width, _height, _poster) {
+        var parent_id = _parent_id;
+        var player_id = _player_id;
+        var width = _width;
+        var height = _height;
+        var poster = _poster;
+
+        function createPlayer(src) {
+            var flashvars = {
+                src: src,
+                autoPlay: "true",
+                verbose: "true",
+                volume: "0",
+                controlBarAutoHide: "true",
+                controlBarPosition: "bottom",
+                poster: poster,
+                plugin_hls: $URL + "HLSDynamicPlugin.swf",
+                VolumeMenuButton: $URL + "HLSDynamicPlugin.swf",
+                javascriptCallbackFunction: "onJavaScriptBridgeCreated"
+            };
+
+            var params = {
+                allowFullScreen: "true"
+            };
+
+            var attributes = {
+                vmode: "transparent",
+                name: player_id
+            };
+            swfobject.embedSWF($URL + "StrobeMediaPlayback.swf", player_id, width, height, "11", $URL + "expressInstall.swf", flashvars, params, attributes);
+        };
+
+        this.reload = function (src) {
+            createPlayer(src);
+        };
+    };
+
+    function onJavaScriptBridgeCreated() {
+        var player = document.getElementById("video-player");
+        player.addEventListener("complete", "completeFunc");
+    }
+
+    function onComplete() {
+        console.log('Complete111111!')
+    }
+
+
+</script>
+</body>
+</html>

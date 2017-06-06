@@ -1,5 +1,6 @@
 ### 更新进度
 +   2017年04月18日 星期二 [解决VideoJs阿里云直播和点播跨域问题](http://www.cnblogs.com/tinywan/p/6234463.html)
++   2017年06月06日 星期二 添加一个开源的播放器： Sewise-Player 播放器
 ### 详细介绍
 +   以下测试延迟多为局域网测试环境（线上为阿里云平台测试）
 +   M3U8 直播或者点播DEMO
@@ -81,6 +82,9 @@
 #### Video-dev-Hls
    + [https://github.com/video-dev/hls.js](https://github.com/video-dev/hls.js)
    + 测试案例
+   
+#### Sewise-Player 播放器
++   [https://github.com/jackzhang1204/sewise-player](https://github.com/jackzhang1204/sewise-player)
     
 #### (Push)Play-RTMP-Info (功能比较强大)
 + 播放RTMP直播流,同时显示直播流的详细信息

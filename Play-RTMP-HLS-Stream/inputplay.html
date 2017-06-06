@@ -34,7 +34,7 @@
 <div class="container" style="width: 1110px; height: 960px;">
     <div class="row">
         <div class="col-lg-12  clearfix-context">
-             <div class="input-group" style="margin-top: 10px;">
+            <div class="input-group" style="margin-top: 10px;">
                 <input type="text" name="stream_address" id="stream_address" required autofocus
                        placeholder="input RTMP or HLS Stream Address 注意不要含有空格" class="form-control">
                 <span class="input-group-btn input-btn">
@@ -52,7 +52,7 @@
 <script src="swfobject.js"></script> <!--必须的的-->
 <script type="text/javascript">
     $(function () {
-        default_stream_address = "http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8";
+        default_stream_address = "rtmp://zonelue2.amailive.com/live/4001483686566";
         playLiveChannel(default_stream_address);
 
         $("#form_button").click(function () {
@@ -91,6 +91,7 @@
                 src: src,
                 autoPlay: "true",
                 verbose: "true",
+                volume: "0",
                 controlBarAutoHide: "true",
                 controlBarPosition: "bottom",
                 poster: poster,
