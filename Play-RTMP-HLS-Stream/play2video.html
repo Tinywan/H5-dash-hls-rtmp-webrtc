@@ -30,11 +30,14 @@
     </style>
 </head>
 <body>
-<div id="flashContent" >
-    dsfsdafads
-    flashContent
-    flashContent
-    flashContent
+<>
+    <div>
+        <span id="currentTime" /> ... </span> : <span id="duration" /> ... </span>
+    </div>
+<a href="#" id="play-pause">Play/Pause</a>
+</div>
+<div id="strobeMediaPlayback">
+    <p>Alternative content</p>
 </div>
 <h1>默认静音</h1>
 <div class="container" style="width: 520px; height: 360px; margin-bottom: 100px;">
@@ -118,9 +121,47 @@
         };
     };
 
-    function onJavaScriptBridgeCreated() {
-        var player = document.getElementById("video-player");
-        player.addEventListener("complete", "completeFunc");
+    function completeFunc(time, playerId) {
+        //var player = document.getElementById(playerId);
+        alert("!!!");
+    }
+
+    function onCurrentTimeChange(time, playerId)
+    {
+        document.getElementById("currentTime").innerHTML = time;
+    }
+
+    function onDurationChange(time, playerId)
+    {
+        document.getElementById("duration").innerHTML = time;
+        console.log('time :: '+time)
+    }
+
+    var player = null;
+    function onJavaScriptBridgeCreated(playerId)
+    {
+        if (player == null) {
+            player = document.getElementById("video-player");
+
+            // Add event listeners that will update the
+            player.addEventListener("currentTimeChange", "onCurrentTimeChange");
+            player.addEventListener("durationChange", "onDurationChange");
+
+            player.addEventListener("complete", "completeFunc");
+
+            // Pause/Resume the playback when we click the Play/Pause link
+//            document.getElementById("play-pause").onclick = function(){
+//                var state = player.getState();
+//                if (state == "ready" || state == "paused") {
+//                    player.play2();
+//                }
+//                else
+//                if (state == "playing") {
+//                    player.pause();
+//                }
+//                return false;
+//            };
+        }
     }
 
     function onComplete() {
