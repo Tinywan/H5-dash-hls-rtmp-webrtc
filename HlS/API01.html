@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>First step: setup and support</title>
+
+</head>
+<body>
+<h1>First step: setup and support</h1>
+<script src="hls/hls.min.js"></script>
+<video id="video" controls onvolumechange="myFunction()"></video>
+<script>
+    var config = {
+        autoStartLoad: true,
+        startPosition: -1
+    };
+    if (Hls.isSupported()) {
+        var video = document.getElementById('video');
+        var hls = new Hls(config);
+        // bind them together
+        hls.attachMedia(video);
+        // MEDIA_ATTACHED event is fired by hls object once MediaSource is ready
+        hls.on(Hls.Events.MEDIA_ATTACHED, function () {
+            console.log("video and hls.js are now bound together !");
+            hls.loadSource("http://zonelue2.amailive.com/live/4001483686566.m3u8");
+            hls.on(Hls.Events.MANIFEST_PARSED, function (event, data) {
+                console.log("manifest loaded, found " + data.levels.length + " quality level");
+            })
+        });
+        hls.on(Hls.Events.ERROR, function (event, data) {
+            if (data.fatal) {
+                switch (data.type) {
+                    case Hls.ErrorTypes.NETWORK_ERROR:
+                        // try to recover network error
+                        console.log("fatal network error encountered, try to recover");
+                        hls.startLoad();
+                        break;
+                    case Hls.ErrorTypes.MEDIA_ERROR:
+                        console.log("fatal media error encountered, try to recover");
+                        hls.recoverMediaError();
+                        break;
+                    default:
+                        // cannot recover
+                        hls.destroy();
+                        break;
+                }
+            }
+        });
+    }
+    function startPlay() {
+        video.play();
+    }
+
+    document.getElementById("myVideo").onvolumechange = function () {
+        myFunction()
+    };
+
+    function myFunction() {
+        alert("音量已改变!");
+    }
+</script>
+<div style="padding-top: 20px;">
+    <div style="padding-right: 15px;float: left;">[直播接口]</div>
+    <div style="padding-right: 15px;float: left;"><a href="javascript:startPlay();">播放</a></div>
+    <div style="padding-right: 15px;float: left;"><a href="javascript:playPause();">暂停</a></div>
+    <div style="padding-right: 15px;float: left;"><a href="javascript:seekTo();">跳转</a></div>
+    <div style="padding-right: 15px;float: left;"><a href="javascript:playStop();">停止</a></div>
+    <div style="padding-right: 15px;float: left;"><a href="javascript:livePlay();">直播</a></div>
+    <div style="padding-right: 15px;float: left;"><a href="javascript:changeVolume();">更改音量</a></div>
+    <div style="padding-right: 15px;float: left;"><a href="javascript:getLiveTime();">直播时间</a></div>
+    <div style="padding-right: 15px;float: left;"><a href="javascript:getPlayTime();">播放时间</a></div>
+    <div style="padding-right: 15px;float: left;"><a href="javascript:switchChannel();">切换频道</a></div>
+    <div style="padding-right: 15px;float: left;"><a href="javascript:switchStream();">切换流</a></div>
+    <br clear="all"/>
+</div>
+</body>
+</html>

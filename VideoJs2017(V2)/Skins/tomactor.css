@@ -1,0 +1,94 @@
+.video-js .vjs-menu-button-inline.vjs-slider-active,.video-js .vjs-menu-button-inline:focus,.video-js .vjs-menu-button-inline:hover,.video-js.vjs-no-flex .vjs-menu-button-inline {
+    width: 10em
+}
+
+.video-js .vjs-controls-disabled .vjs-big-play-button {
+    display: none!important
+}
+
+.video-js .vjs-control {
+    width: 3em
+}
+
+.video-js .vjs-menu-button-inline:before {
+    width: 1.5em
+}
+
+.vjs-menu-button-inline .vjs-menu {
+    left: 3em
+}
+
+.vjs-paused.vjs-has-started.video-js .vjs-big-play-button,.video-js.vjs-ended .vjs-big-play-button,.video-js.vjs-paused .vjs-big-play-button {
+    display: block
+}
+
+.video-js .vjs-load-progress div,.vjs-seeking .vjs-big-play-button,.vjs-waiting .vjs-big-play-button {
+    display: none!important
+}
+
+.video-js .vjs-mouse-display:after,.video-js .vjs-play-progress:after {
+    padding: 0 .4em .3em
+}
+
+.video-js.vjs-ended .vjs-loading-spinner {
+    display: none;
+}
+
+.video-js.vjs-ended .vjs-big-play-button {
+    display: block !important;
+}
+
+video-js.vjs-ended .vjs-big-play-button,.video-js.vjs-paused .vjs-big-play-button,.vjs-paused.vjs-has-started.video-js .vjs-big-play-button {
+    display: block
+}
+
+.video-js .vjs-big-play-button {
+    top: 50%;
+    left: 50%;
+    margin-left: -1.5em;
+    margin-top: -1em
+}
+
+.video-js .vjs-big-play-button {
+    background-color: rgba(58,148,37,0.7);
+    font-size: 3em;
+    border-radius: 15%;
+    height: 1.8em !important;
+    line-height: 1.8em !important;
+    margin-top: -0.9em !important
+}
+
+.video-js:hover .vjs-big-play-button,.video-js .vjs-big-play-button:focus,.video-js .vjs-big-play-button:active {
+    background-color: #3a9425
+}
+
+.video-js .vjs-loading-spinner {
+    border-color: #3a9425
+}
+
+.video-js .vjs-control-bar2 {
+    background-color: #3a9425
+}
+
+.video-js .vjs-control-bar {
+    background-color: #3a9425 !important;
+    color: #ffffff;
+    font-size: 11px
+}
+
+.video-js .vjs-play-progress,.video-js  .vjs-volume-level {
+    background-color: #f3ec1a
+}
+
+.video-js .vjs-slider {
+    background-color: #3b3d41
+}
+
+.video-js .vjs-load-progress {
+    background: rgba(252,249,133,0.7);
+}
+
+.video-js .vjs-big-play-button {
+    color: #f3ec1a;
+    border-color: #f3ec1a;
+}

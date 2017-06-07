@@ -5,6 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e498f0f5-437f-4f78-a16c-904994e1efb6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VideoJs2017(V2)/image/video-background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VideoJs2017(V2)/videojs/video-js.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HlS/API01.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HlS/hls/hls.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HlS/hls/hls.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VideoJs2017(V2)/Skins/YouTouBe.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VideoJs2017(V2)/Skins/facebook-player.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VideoJs2017(V2)/Skins/skin-1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VideoJs2017(V2)/Skins/tomactor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VideoJs2017(V2)/hls-stream.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VideoJs2017(V2)/rtmp-stream.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VideoJs2017(V2)/videojs/video-js.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VideoJs2017(V2)/videojs/video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VideoJs2017(V2)/videojs/videojs-contrib-hls.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VideoJs2017(V2)/videojs/videojs-contrib-hls.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VideoJs2017(V2)/videojs/videojs-flash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VideoJs2017(V2)/videojs/videojs-flash.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VideoJs2017(V2)/videojs/videojs-ie8.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -18,35 +36,22 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="play2video2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Play-RTMP-HLS-Stream/play2video2.html">
+      <file leaf-file-name="hls-stream.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/VideoJs2017(V2)/hls-stream.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="64" column="30" lean-forward="false" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+            <state relative-caret-position="598">
+              <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="player.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Play-RTMP-HLS-Stream/player.js">
+      <file leaf-file-name="API01.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HlS/API01.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1116">
-              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+            <state relative-caret-position="1044">
+              <caret line="58" column="24" lean-forward="true" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="72">
-                <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -106,7 +111,10 @@
         <option value="$PROJECT_DIR$/Sewise-Player/livea_api.html" />
         <option value="$PROJECT_DIR$/Play-RTMP-HLS-Stream/play2video.html" />
         <option value="$PROJECT_DIR$/Play-RTMP-HLS-Stream/play2video2.html" />
+        <option value="$PROJECT_DIR$/VideoJs2017(V2)/API01.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/HlS/API01.html" />
+        <option value="$PROJECT_DIR$/VideoJs2017(V2)/hls-stream.html" />
       </list>
     </option>
   </component>
@@ -159,7 +167,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Sewise-Player" />
+              <option name="myItemId" value="VideoJs2017(V2)" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -173,7 +181,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Play-RTMP-HLS-Stream" />
+              <option name="myItemId" value="VideoJs2017(V2)" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Skins" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -191,11 +203,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\Html5-m3u8-RTMP" />
+      <recent name="D:\wamp64\www\Html5-m3u8-RTMP\VideoJs2017(V2)\hls" />
       <recent name="D:\wamp64\www\Html5-m3u8-RTMP\Sewise-Player" />
       <recent name="D:\wamp64\www\Html5-m3u8-RTMP\Play-RTMP-HLS-Stream" />
-      <recent name="D:\wamp64\www\Html5-m3u8-RTMP" />
       <recent name="D:\wamp64\www\Html5-m3u8-RTMP\VideoJs2017\videojs" />
-      <recent name="D:\wamp64\www\Html5-m3u8-RTMP\Video-Dev-Hls\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -342,7 +354,7 @@
       <workItem from="1496722905545" duration="15507000" />
       <workItem from="1496742630089" duration="569000" />
       <workItem from="1496796381696" duration="1529000" />
-      <workItem from="1496798025629" duration="13435000" />
+      <workItem from="1496798025629" duration="18262000" />
     </task>
     <task id="LOCAL-00001" summary="直播和点播HLS的M3U8播放(可输入动态改变HLS地址)，解决js跨域问题">
       <created>1491881434440</created>
@@ -435,17 +447,23 @@
       <option name="project" value="LOCAL" />
       <updated>1496817082667</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary=":penguin: :penguin: :penguin: update readme">
+      <created>1496817479265</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1496817479265</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110385000" />
+    <option name="totallyTimeSpent" value="115212000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1936" height="1066" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15565032" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15565032" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -480,65 +498,14 @@
     <MESSAGE value="swfobject.embedSWF 修改" />
     <MESSAGE value="swfobject.embedSWF 修改Play-RTMP-HLS-Stream(Obj-Flash) 优化" />
     <MESSAGE value="Play-RTMP-HLS-Stream 代码方法优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="Play-RTMP-HLS-Stream 代码方法优化" />
+    <MESSAGE value=":penguin: :penguin: :penguin: update readme" />
+    <option name="LAST_COMMIT_MESSAGE" value=":penguin: :penguin: :penguin: update readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/VideoJs2017/rtmp-stream.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="51" lean-forward="false" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VideoJs2017/auto-input-hls-player.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="78" lean-forward="false" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Play-RTMP-HLS-Stream/inputplay.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="954">
-          <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VideoJs2017/videojs/video.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248274">
-          <caret line="13793" column="4" lean-forward="true" selection-start-line="13793" selection-start-column="4" selection-end-line="13793" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VideoJs2017/hls-stream.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="105" lean-forward="false" selection-start-line="21" selection-start-column="105" selection-end-line="21" selection-end-column="105" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VideoJs2017/rtmp-stream.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="51" lean-forward="false" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VideoJs2017/auto-input-hls-player.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="45" column="39" lean-forward="true" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VideoJs2017/videojs/video.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248166">
@@ -655,13 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VideoJs2017/index123.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VideoJs2017/rtmp-stream-2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
@@ -673,6 +633,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -722,13 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VideoJs2017/rtmp-stream.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="12" column="54" lean-forward="false" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/(Push)Play-RTMP-Info/ParsedQueryString.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-441">
@@ -773,28 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sewise-Player/livea_api.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#8;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#9;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#10;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sewise-Player/live_streamurl_rtmp.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -820,7 +752,7 @@
         <state relative-caret-position="900">
           <caret line="146" column="80" lean-forward="false" selection-start-line="146" selection-start-column="19" selection-end-line="146" selection-end-column="80" />
           <folding>
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -861,14 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Play-RTMP-HLS-Stream/play2video2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="64" column="30" lean-forward="false" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Play-RTMP-HLS-Stream/player.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1116">
@@ -877,14 +801,102 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Play-RTMP-HLS-Stream/play2video2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="64" column="30" lean-forward="false" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoJs2017(V2)/auto-input-hls-player.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-756">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HlS/hls/hls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HlS/test/sources01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sewise-Player/livea_api.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="39" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="72">
-            <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <first_editor relative-caret-position="770">
+            <caret line="106" column="78" lean-forward="true" selection-start-line="106" selection-start-column="78" selection-end-line="106" selection-end-column="78" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoJs2017/index123.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoJs2017/rtmp-stream.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="54" lean-forward="false" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoJs2017(V2)/test/sources01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HlS/API01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="58" column="24" lean-forward="true" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoJs2017(V2)/hls-stream.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

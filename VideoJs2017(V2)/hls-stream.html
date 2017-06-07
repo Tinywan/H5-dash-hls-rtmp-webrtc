@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HLS Stream Play</title>
+
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link href="videojs/video-js.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./Skins/facebook-player.css">
+    <!-- If you'd like to support IE8 -->
+    <!--<script src="videojs/videojs-ie8.min.js"></script>-->
+</head>
+<body>
+<center>
+    <h1>HLS 的M3U8 播放</h1>
+    <video controls id="live-stream" class="video-js vjs-default-skin" onvolumechange="myFunction()" onpause="myFunction2()">
+        <source
+                src="http://zonelue2.amailive.com/live/4001483686566.m3u8"
+                type="application/x-mpegURL">
+    </video>
+</center>
+<script src="videojs/video.js"></script>
+<script src="videojs/videojs-contrib-hls.min.js"></script>
+<script>
+    var options = {};
+    options.width = 240;
+    options.height = 360;
+
+    var player = videojs('live-stream', options);
+    player.play();
+
+    player.addClass('vjs-matrix');
+
+    player.on(['loadstart', 'play', 'playing', 'firstplay', 'pause', 'ended', 'adplay', 'adplaying', 'adfirstplay', 'adpause', 'adended', 'contentplay', 'contentplaying', 'contentfirstplay', 'contentpause', 'contentended', 'contentupdate'], function (e) {
+    });
+    player.one('canplay', function () {
+        console.log('player11111111111111');
+    });
+
+    /**
+     *
+     * 获取状态
+     */
+//    document.getElementById("live-stream").onvolumechange = function() {myFunction()};
+
+    function myFunction() {
+        console.log("音量已改变");
+    }
+
+    function myFunction2() {
+        console.log("视频已暂停111111111");
+    }
+</script>
+<script>
+    document.getElementById("live-stream").oncanplay = function() {myFunction2()};
+
+    function myFunction2111() {
+        alert("可以开始播放视频");
+    }
+</script>
+</body>
+</html>
+

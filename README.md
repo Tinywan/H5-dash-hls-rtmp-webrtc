@@ -102,3 +102,6 @@
 + 播放RTMP直播流,同时显示直播流的详细信息
     ![Markdown](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/push-rtmp-play-rtmp-html.png)
 + 探索中...    
+
+##  HLS
++   [https://github.com/video-dev/hls.js](https://github.com/video-dev/hls.js)

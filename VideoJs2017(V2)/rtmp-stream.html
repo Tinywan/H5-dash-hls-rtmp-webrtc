@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RTMP Stream Play</title>
+  <link href="videojs/video-js.css" rel="stylesheet">
+</head>
+<body>
+<center>
+  <video id="live-stream" class="video-js vjs-default-skin vjs-big-play-centered" controls autoplay preload="auto"
+         poster="image/video-background.jpg"
+         data-setup='{"example_option":true}'>
+  poster="image/video-background.jpg" data-setup='{"example_option":true}'>
+    <source src="rtmp://122.224.187.165/live/stream123" type="application/x-mpegURL">
+  </video>
+  </center>
+  <script src="videojs/video.js"></script>
+  <script>
+      var options = {
+          width: 1080,
+          height: 520
+      }
+      var player = videojs('live-stream', options);
+      player.addClass('vjs-matrix');
+
+      player.on(['loadstart', 'play', 'playing', 'firstplay', 'pause', 'ended', 'adplay', 'adplaying', 'adfirstplay', 'adpause', 'adended', 'contentplay', 'contentplaying', 'contentfirstplay', 'contentpause', 'contentended', 'contentupdate'], function (e) {
+//        console.warn('VIDEOJS player event: ', e.type);
+          if(e.type == "play"){
+              console.log('开始播放');
+          }else if(e.type == "playing"){
+              console.log('正在播放...');
+          }else if(e.type == "pause"){
+              console.log('暂停视频播放');
+          }else if(e.type == "firstplay"){
+              console.log('firstplay播放');
+          }else{
+              console.log('1111111111111');
+          }
+      });
+
+  </script>
+</body>
+</html>
+
