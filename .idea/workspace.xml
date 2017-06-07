@@ -42,8 +42,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="54">
-                <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="47" />
+              <first_editor relative-caret-position="72">
+                <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -342,7 +342,7 @@
       <workItem from="1496722905545" duration="15507000" />
       <workItem from="1496742630089" duration="569000" />
       <workItem from="1496796381696" duration="1529000" />
-      <workItem from="1496798025629" duration="13052000" />
+      <workItem from="1496798025629" duration="13435000" />
     </task>
     <task id="LOCAL-00001" summary="直播和点播HLS的M3U8播放(可输入动态改变HLS地址)，解决js跨域问题">
       <created>1491881434440</created>
@@ -428,11 +428,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496816918033</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Play-RTMP-HLS-Stream 代码方法优化">
+      <created>1496817082667</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1496817082667</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110002000" />
+    <option name="totallyTimeSpent" value="110385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1936" height="1066" extended-state="0" />
@@ -472,7 +479,8 @@
     <MESSAGE value="2017年06月06日 星期二 添加一个开源的播放器： Sewise-Player 播放器" />
     <MESSAGE value="swfobject.embedSWF 修改" />
     <MESSAGE value="swfobject.embedSWF 修改Play-RTMP-HLS-Stream(Obj-Flash) 优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="swfobject.embedSWF 修改Play-RTMP-HLS-Stream(Obj-Flash) 优化" />
+    <MESSAGE value="Play-RTMP-HLS-Stream 代码方法优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="Play-RTMP-HLS-Stream 代码方法优化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -872,8 +880,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="54">
-            <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="47" />
+          <first_editor relative-caret-position="72">
+            <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
             <folding />
           </first_editor>
           <second_editor />

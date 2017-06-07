@@ -1,11 +1,11 @@
-### 更新进度
+### :hibiscus:  更新进度
 +   2017年04月18日 星期二 [解决VideoJs阿里云直播和点播跨域问题](http://www.cnblogs.com/tinywan/p/6234463.html)
 +   2017年06月06日 星期二 添加一个开源的播放器： Sewise-Player 播放器
 +   2017年06月07日 星期三 Play-RTMP-HLS-Stream 代码方法优化
-### 详细介绍
+### :tropical_fish: 详细介绍
 +   以下测试延迟多为局域网测试环境（线上为阿里云平台测试）
 +   M3U8 直播或者点播DEMO
-+ **VideoJs-M3U8**
+### :sunny: VideoJs-M3U8
     + [x] 1、支持直播流：HSL的 m3u8   
     + [x] 2、如何使用：直接下载即可使用,注意点： m3u8 播放必须放在服务器下面  
     + [x] 3、默认：m3u8播放   
@@ -23,49 +23,47 @@
             + ![facebook-player](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/facebook.jpg)
 
 
-+ **m3u8-IE-Support**    
-    + [x] 兼容所有浏览器
-    + [x] 支持IE11 浏览器播放  
-    + [x] 测试结果：通过 
-+ **VideoJs2017**
-    + [x] 1、RTMP 支持播放
-    + [x] 2、支持鉴权 
-    + [ ] 3、~~M3U8 IE 暂时不支持播放~~  
-    + [x] 4、延迟测试(局域网测试)
-        + [x] RTMP 延迟：2s   
-        + [x] HLS 延迟： 18s 
-        + [x] VLC 延迟(不推荐)： 18s 
-    + 测试播放列表
-         + [1] RTMP直播流：`rtmp-stream.html`
-         + [2] HLS直播和点播：`hls-stream.html`
-         + [3] 直播和点播HLS的M3U8播放(可输入动态改变HLS地址)：`auto-input-hls-player.html`
-            + 遇到JS跨域的问题：
-                - `The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'. Origin 'http://127.0.0.1`
-            + 解决办法(Nginx 服务器配置方法，Apache自行百度)：
-            ```
-            location /record {
-                add_header Cache-Control no-cache;
-                add_header 'Access-Control-Allow-Origin' '*' always;
-                add_header 'Access-Control-Expose-Headers' 'Content-Length,Content-Range';
-                add_header 'Access-Control-Allow-Headers' 'Range';
-                types{
-                        application/dash+xml mpd;
-                        application/vnd.apple.mpegurl m3u8;
-                        video/mp2t ts;
-                 }
-                alias /home/tinywan/hls;
+### :cloud: m3u8-IE-Support 
++ [x] 兼容所有浏览器
++ [x] 支持IE11 浏览器播放  
++ [x] 测试结果：通过 
+### :cyclone:   VideoJs2017
++ [x] 1、RTMP 支持播放
++ [x] 2、支持鉴权 
++ [ ] 3、~~M3U8 IE 暂时不支持播放~~  
++ [x] 4、延迟测试(局域网测试)
+    + [x] RTMP 延迟：2s   
+    + [x] HLS 延迟： 18s 
+    + [x] VLC 延迟(不推荐)： 18s 
++ 测试播放列表
+     + [1] RTMP直播流：`rtmp-stream.html`
+     + [2] HLS直播和点播：`hls-stream.html`
+     + [3] 直播和点播HLS的M3U8播放(可输入动态改变HLS地址)：`auto-input-hls-player.html`
+        + 遇到JS跨域的问题：
+            - `The value of the 'Access-Control-Allow-Origin' header in the response must not be the wildcard '*' when the request's credentials mode is 'include'. Origin 'http://127.0.0.1`
+        + 解决办法(Nginx 服务器配置方法，Apache自行百度)：
+        ```
+        location /record {
+            add_header Cache-Control no-cache;
+            add_header 'Access-Control-Allow-Origin' '*' always;
+            add_header 'Access-Control-Expose-Headers' 'Content-Length,Content-Range';
+            add_header 'Access-Control-Allow-Headers' 'Range';
+            types{
+                    application/dash+xml mpd;
+                    application/vnd.apple.mpegurl m3u8;
+                    video/mp2t ts;
              }
+            alias /home/tinywan/hls;
+         }
 
-            ```
-            + 测试地址：`http://192.168.18.143/record/stream_name/index.m3u8`
-                
-            
-    + [x] 测试进度
-        + [2017年4月10日 下午 16:00 ] 局域网的HSL和RTMP流延迟的测试
-            > 测试结果：RTMP 延迟：2s ，HLS 延迟： 18s    
-        + [2017年4月11日 下午 13:00 ] 直播和点播HLS的M3U8播放(可输入动态改变HLS地址),JS 跨域问题    
+        ```
+        + 测试地址：`http://192.168.18.143/record/stream_name/index.m3u8`
++ [x] 测试进度
+    + [2017年4月10日 下午 16:00 ] 局域网的HSL和RTMP流延迟的测试
+        > 测试结果：RTMP 延迟：2s ，HLS 延迟： 18s    
+    + [2017年4月11日 下午 13:00 ] 直播和点播HLS的M3U8播放(可输入动态改变HLS地址),JS 跨域问题    
 
-#### Play-RTMP-HLS-Stream(Obj-Flash) 
+#### :umbrella: Play-RTMP-HLS-Stream(Obj-Flash) 
 +   支持 RTMP 和 M3U8 直播兼容播放
 +   参数说明
     +   语法：`embedSWF: function(swfUrlStr, replaceElemIdStr, widthStr, heightStr, swfVersionStr, xiSwfUrlStr, flashvarsObj, parObj, attObj, callbackFn)`
