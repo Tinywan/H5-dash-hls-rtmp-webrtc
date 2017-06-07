@@ -64,20 +64,33 @@
             > 测试结果：RTMP 延迟：2s ，HLS 延迟： 18s    
         + [2017年4月11日 下午 13:00 ] 直播和点播HLS的M3U8播放(可输入动态改变HLS地址),JS 跨域问题    
 
-#### RTMP and M3U8 直播
-+ Play-RTMP-HLS-Stream(Obj-Flash) 
-    + [x] 1、支持直播流：播放RTMP直播流和HSL直播流   
-    + [x] 2、如何使用：直接下载即可使用,注意点： m3u8 播放必须放在服务器下面  
+#### Play-RTMP-HLS-Stream(Obj-Flash) 
++   支持 RTMP 和 M3U8 直播兼容播放
++   参数说明
+    +   语法：`embedSWF: function(swfUrlStr, replaceElemIdStr, widthStr, heightStr, swfVersionStr, xiSwfUrlStr, flashvarsObj, parObj, attObj, callbackFn)`
+        1.  `swfUrlStr`:指定您的SWF的URL（StrobeMediaPlayback.swf）
+        1.  `replaceElemIdStr`:指定包含替换元素的html元素的ID,能用你的flash的内容来替换
+        1.  `widthStr`:指定SWF的宽度
+        1.  `heightStr`:指定SWF的高度
+        1.  `swfVersionStr`:指定SWF 发布所需的flash播放器的版本
+        1.  `xiSwfUrlStr`:指定快速安装的路径，激活快速安装. 请注意，快速安装只会触发一次（他第一次被调用）
+        1.  `flashvarsObj`:指定需要传递给flash的变量（用键值对）
+        1.  `parObj`:指定嵌入对象的参数（用键值对）
+        1.  `attObj`:指定对象的属性（用键值对）
+        1.  `callbackFn`: (JavaScript function, optional)能定义一个回调函数，不管调用flash创建成功或者失败都可以调用该函数
++   文档
+    + [x] 1、支持：播放RTMP直播流和HSL直播流   
+    + [x] 2、如何使用：直接下载即可使用,注意点：m3u8 播放必须放在服务器下面，负载存在跨域问题  
     + [x] 3、默认：RTMP播放   
     + [x] 4、延迟：
         + [x] RTMP 延迟：3s   
         + [x] HLS 延迟： 20s  
-        + [x] VLC 延迟(不推荐)： 18s
     + [x] 5、跨域：OK
-    + [x] 6、鉴权：不可以
+    + [x] 6、鉴权：OK （服务添加xml跨域文件）
+    + [x] 7、待解决问题：js 调用swf问题~~~~~~~~~~~
     + [x] 测试进度
-        + [2017年4月10日 下午 16:00 ] 局域网的HSL和RTMP流延迟的测试
-            > 测试结果：RTMP 延迟：3s ，HLS 延迟： 20s 
+        + [2017年4月10日 下午 16:00 ] 局域网的HSL和RTMP流延迟的测试，测试结果：RTMP 延迟：3s ，HLS 延迟： 20s 
+        + [2017年6月7日 下午 16:00 ] 代码优化,该页面进行过优化`play2video2.html`，默认静音播放
 
 #### Video-dev-Hls
    + [https://github.com/video-dev/hls.js](https://github.com/video-dev/hls.js)

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="sewise.player.min.js"></script>
+    <!--<script src="sewise.player.min.js"></script>-->
+</head>
+<body>
+<div style="width: 640px; height: 360px; ">
+    <!--<script type="text/javascript" src="http://jackzhang1204.github.io/sewise/sewise_player/player/sewise.player.min.js"></script>-->
+    <script  type="text/javascript">
+        SewisePlayer.setup({
+            server: "live",
+            type: "rtmp",
+            streamurl: "rtmp://live.hkstv.hk.lxdns.com/live/hks",
+            autostart: "true",
+            buffer: "5",
+            title: "RTMP src path",
+            lang: "zh_CN",
+            claritybutton: "disable",   //是否自动影藏导航栏
+            skin: "liveWhite",
+        });
+    </script>
+</div>
+
+<div style="padding-top: 20px;">
+    <div style="padding-right: 15px;float: left;">[直播接口]</div>
+    <div style="padding-right: 15px;float: left;"><a href="javascript:startPlay();">播放</a></div>
+    <div style="padding-right: 15px;float: left;"><a href="javascript:playPause();">暂停</a></div>
+    <div style="padding-right: 15px;float: left;"><a href="javascript:seekTo();">跳转</a></div>
+    <div style="padding-right: 15px;float: left;"><a href="javascript:playStop();">停止</a></div>
+    <div style="padding-right: 15px;float: left;"><a href="javascript:livePlay();">直播</a></div>
+    <div style="padding-right: 15px;float: left;"><a href="javascript:changeVolume();">更改音量</a></div>
+    <div style="padding-right: 15px;float: left;"><a href="javascript:getLiveTime();">直播时间</a></div>
+    <div style="padding-right: 15px;float: left;"><a href="javascript:getPlayTime();">播放时间</a></div>
+    <div style="padding-right: 15px;float: left;"><a href="javascript:switchChannel();">切换频道</a></div>
+    <div style="padding-right: 15px;float: left;"><a href="javascript:switchStream();">切换流</a></div>
+    <br clear="all"/>
+</div>
+</body>
+</html>

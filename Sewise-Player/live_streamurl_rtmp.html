@@ -28,15 +28,10 @@
             skin: "liveWhite",
         });
 
-        SewisePlayer.playerReady(function(name){
-            console.log("Sewise Player On Ready 2");
-        });
-        function onStart(name){
-            console.log("onStart 1");
+        function playPause() {
+			console.log('playPause playPause ');
+            SewisePlayer.doPause();
         }
-        SewisePlayer.onStart(function(name){
-            console.log("onStart 2");
-        });
 	</script>
 </div>
 

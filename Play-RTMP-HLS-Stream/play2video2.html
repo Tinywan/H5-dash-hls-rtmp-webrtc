@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>多视频播放测试2</title>
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery-1.11.0.js"></script>
+    <style type="text/css">
+        html, body {
+            height: 100%
+        }
+
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        html, body {
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            height: 100%;
+            font-size: 62.5%;
+        }
+    </style>
+</head>
+<body>
+<h1>默认静音</h1>
+<div class="container" style="width: 520px; height: 360px; margin-bottom: 100px;">
+    <div class="row">
+        <div class="col-lg-6  clearfix-context">
+            <div>
+                <video id="video-player"></video>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6  clearfix-context">
+            <div>
+                <video id="video-player2"></video>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="swfobject1.js"></script> <!--必须的的-->
+<script type="text/javascript">
+    $(function () {
+        src1 = "rtmp://live.hkstv.hk.lxdns.com/live/hks";
+        src2 = "https://vodcdn.alicdn.com/oss/taobao-ugc/1dde6e764244406cbe5962b26eee078c/1476754829/video.mp4";
+        el1 = "video-player";
+        el2 = "video-player2";
+        playVideo(src1, el1);
+        playVideo(src2, el2);
+    });
+
+    var $URL = "./";
+    function playVideo(src, el) {
+        var swfPlayer = new SWFPlayer("container", el, "520", "360", "tinywan123.jpg");
+        swfPlayer.reload(src);
+    }
+
+    var SWFPlayer = function (_parent_id, _player_id, _width, _height, _poster) {
+        var parent_id = _parent_id;
+        var player_id = _player_id;
+        var widthStr = _width;
+        var heightStr = _height;
+        var poster = _poster;
+
+        function createPlayer(src) {
+            var swfUrlStr = $URL + "StrobeMediaPlayback.swf";
+            var swfVersionStr = "11.1.0";
+            var xiSwfUrlStr = $URL + "expressInstall.swf";
+
+            //flashvars：（对象类型，可选）使用 name:value 的形式指定 swf 文件的入口参数；
+            var flashvars = {}
+            flashvars.src = src;
+            flashvars.poster = poster;
+            flashvars.autoPlay = "true";
+            flashvars.volume = 0;
+            flashvars.controlBarPosition = "bottom";
+            flashvars.controlBarAutoHide = true;
+            flashvars.plugin_hls = $URL + "HLSDynamicPlugin.swf";
+            flashvars.VolumeMenuButton = $URL + "HLSDynamicPlugin.swf";
+            flashvars.javascriptCallbackFunction = 'onJavaScriptBridgeCreated';
+
+            //params：（对象类型，可选）使用 name:value 的形式指定加载 swf 文件时的 Flash 参数；
+            var flashvarsObj = {}
+            flashvarsObj.allowFullScreen = true;
+
+            //attributes：（对象类型，可选）使用 name:value 的形式指定 swf 对象的属性；
+            var attributes = {};
+            attributes.mode = "transparent";
+            attributes.id = player_id;
+            attributes.name = player_id;
+            // embedSWF: function(swfUrlStr, replaceElemIdStr, widthStr, heightStr, swfVersionStr, xiSwfUrlStr, flashvarsObj, parObj, attObj, callbackFn)
+            swfobject.embedSWF(swfUrlStr, player_id, widthStr, heightStr, swfVersionStr, xiSwfUrlStr, flashvars, flashvarsObj, attributes);
+            //swfobject.embedSWF(swfUrlStr, player_id, widthStr, heightStr, swfVersionStr, xiSwfUrlStr, flashvars, flashvarsObj, attributes,embedHandler);
+        };
+
+        this.reload = function (src) {
+            createPlayer(src);
+        };
+    };
+    // （Javascript函数，可选）指定一个回调函数，这个回调函数无论加载 swf 文件成功或失败都会调用,在这里可以统计用户访问播放器页面的情况
+    var embedHandler = function (e) {
+        if (e.success) {
+            console.log("The embed was successful!");
+            console.log(e);
+            var player = document.getElementById(e.id);
+            player.addEventListener("volumechange", myFunction);
+        } else {
+            alert("The embed failed!");
+        }
+    };
+
+    function onJavaScriptBridgeCreated(playerId) {
+        var player = document.getElementById(playerId);
+        player.addEventListener("complete", "completeFunc");
+        player.addEventListener("volumeChange", onVolumeChange);
+        ;
+    }
+
+    function completeFunc() {
+        console.log('Complete!')
+    }
+
+    function myFunction() {
+        alert("音量已改变!");
+    }
+
+    function onVolumeChange() {
+        console.log('1111111111')
+    }
+
+
+</script>
+</body>
+</html>
