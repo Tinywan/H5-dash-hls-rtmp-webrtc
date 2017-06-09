@@ -105,3 +105,10 @@
 
 ##  HLS
 +   [https://github.com/video-dev/hls.js](https://github.com/video-dev/hls.js)
+
+## FFmpeg HLS 命令记录
++   `hls_segment_filename` 文件名,设置段文件名。除非hls_flags single_file设置， 文件名将被用作具有段号的字符串格式：
+    +   格式：`ffmpeg -i in.nut -hls_segment_filename'file％03d.ts'out.m3u8`
+    +   此示例将生成播放列表， out.m3u8，和段文件： file000.ts， file001.ts， file002.ts等等
+    
+    
