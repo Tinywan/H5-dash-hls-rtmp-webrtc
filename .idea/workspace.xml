@@ -22,8 +22,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="644">
-                <caret line="108" column="3" lean-forward="false" selection-start-line="108" selection-start-column="3" selection-end-line="108" selection-end-column="18" />
+              <first_editor relative-caret-position="554">
+                <caret line="109" column="5" lean-forward="false" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="50" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -300,7 +300,7 @@
       <workItem from="1496798025629" duration="18380000" />
       <workItem from="1496826548714" duration="608000" />
       <workItem from="1496970559755" duration="1243000" />
-      <workItem from="1496994780114" duration="118000" />
+      <workItem from="1496994780114" duration="1891000" />
     </task>
     <task id="LOCAL-00001" summary="直播和点播HLS的M3U8播放(可输入动态改变HLS地址)，解决js跨域问题">
       <created>1491881434440</created>
@@ -407,11 +407,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496822356671</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary=":penguin: :penguin: :penguin: FFmpeg HLS 命令记录">
+      <created>1496994903086</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1496994903086</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117299000" />
+    <option name="totallyTimeSpent" value="119072000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1936" height="1066" extended-state="0" />
@@ -453,7 +460,8 @@
     <MESSAGE value="swfobject.embedSWF 修改Play-RTMP-HLS-Stream(Obj-Flash) 优化" />
     <MESSAGE value="Play-RTMP-HLS-Stream 代码方法优化" />
     <MESSAGE value=":penguin: :penguin: :penguin: update readme" />
-    <option name="LAST_COMMIT_MESSAGE" value=":penguin: :penguin: :penguin: update readme" />
+    <MESSAGE value=":penguin: :penguin: :penguin: FFmpeg HLS 命令记录" />
+    <option name="LAST_COMMIT_MESSAGE" value=":penguin: :penguin: :penguin: FFmpeg HLS 命令记录" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -791,8 +799,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="644">
-            <caret line="108" column="3" lean-forward="false" selection-start-line="108" selection-start-column="3" selection-end-line="108" selection-end-column="18" />
+          <first_editor relative-caret-position="554">
+            <caret line="109" column="5" lean-forward="false" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="50" />
             <folding />
           </first_editor>
           <second_editor />

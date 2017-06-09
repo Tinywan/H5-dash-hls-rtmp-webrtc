@@ -107,8 +107,15 @@
 +   [https://github.com/video-dev/hls.js](https://github.com/video-dev/hls.js)
 
 ## FFmpeg HLS 命令记录
-+   `hls_segment_filename` 文件名,设置段文件名。除非hls_flags single_file设置， 文件名将被用作具有段号的字符串格式：
++   [官方文档http://www.ffmpeg.org/ffmpeg-formats.html](http://www.ffmpeg.org/ffmpeg-formats.html)
++   `hls_segment_filename` 文件名
+    +   设置段文件名。除非hls_flags single_file设置， 文件名将被用作具有段号的字符串格式：
     +   格式：`ffmpeg -i in.nut -hls_segment_filename'file％03d.ts'out.m3u8`
     +   此示例将生成播放列表， out.m3u8，和段文件： file000.ts， file001.ts， file002.ts等等
++   `use_localtime` 文件名
+    +   对文件名使用strftime（）来扩展本地时间段的文件名。段号也可在此模式下使用，但要使用它，您需要指定second_level_segment_index hls_flag，而%% d将是说明符。
+    +   格式：`ffmpeg -i in.nut -use_localtime 1 -hls_segment_filename'file-％Y％m％d-％s.ts'out.m3u8`
+    +   此示例将生成播放列表， out.m3u8，和段文件： 文件20160215-1455569023.ts， 文件20160215-1455569024.ts等等。注意：在某些系统/环境中，说明%s符不可用。见 strftime()文件。
++   ts 文件转换成m3u8文件:`ffmpeg -i 854-1496985395500.ts -c copy -map 0 -f segment -segment_list playlist.m3u8 -segment_time 10 output%03d.ts`        
     
     
