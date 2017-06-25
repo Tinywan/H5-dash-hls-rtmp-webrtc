@@ -6,23 +6,20 @@
 +   以下测试延迟多为局域网测试环境（线上为阿里云平台测试）
 +   M3U8 直播或者点播DEMO
 ### :sunny: VideoJs-M3U8
-    + [x] 1、支持直播流：HSL的 m3u8   
-    + [x] 2、如何使用：直接下载即可使用,注意点： m3u8 播放必须放在服务器下面  
-    + [x] 3、默认：m3u8播放   
-    + [x] 4、延迟测试(局域网测试)
-        + [x] RTMP 延迟：2s   
-        + [x] HLS 延迟： 18s 
-        + [x] VLC 延迟(不推荐)： 18s  
-    + [x] 5、鉴权：可以      
-    + [x] 皮肤支持
-        + [官方皮肤](http://www.scriptsmashup.com/Video_Skin_Generator/Videojs/videojs-skin-generator.html)
-        + YouTouBe
-            + ![YouTouBe](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/YouTouBe.jpg)
-        
-        + facebook-player   
-            + ![facebook-player](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/facebook.jpg)
-
-
++ [x] 1、支持直播流：HSL的 m3u8   
++ [x] 2、如何使用：直接下载即可使用,注意点： m3u8 播放必须放在服务器下面  
++ [x] 3、默认：m3u8播放   
++ [x] 4、延迟测试(局域网测试)
+     + [x] RTMP 延迟：2s   
+     + [x] HLS 延迟： 18s 
+     + [x] VLC 延迟(不推荐)： 18s  
++ [x] 5、鉴权：可以      
++ [x] 皮肤支持
+    + [官方皮肤](http://www.scriptsmashup.com/Video_Skin_Generator/Videojs/videojs-skin-generator.html)
+    + YouTouBe
+       + ![YouTouBe](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/YouTouBe.jpg)
+     + facebook-player   
+       + ![facebook-player](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/facebook.jpg)
 ### :cloud: m3u8-IE-Support 
 + [x] 兼容所有浏览器
 + [x] 支持IE11 浏览器播放  
