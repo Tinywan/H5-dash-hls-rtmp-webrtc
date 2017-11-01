@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge" >
+    <meta name="viewport"   content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+    <title>Aliplayer在线配置</title>
+    <link rel="stylesheet" href="//g.alicdn.com/de/prismplayer/2.2.0/skins/default/aliplayer-min.css" />
+    <script type="text/javascript" src="//g.alicdn.com/de/prismplayer/2.2.0/aliplayer-min.js"></script>
+</head>
+<body>
+<div  class="prism-player" id="J_prismPlayer" style="position: absolute;left:0%;"></div>
+<script>
+    var player = new Aliplayer({
+        id: "J_prismPlayer",
+        autoplay: true,
+        isLive:true,
+        playsinline:true,
+        width:"100%",
+        height:"400px",
+        controlBarVisibility:"always",
+        useH5Prism:false,
+        useFlashPrism:false,
+        source:"rtmp://live.hkstv.hk.lxdns.com/live/hks",
+        cover:"",
+        skinLayout:[{"name":"fullControlBar","align":"tlabs","x":0,"y":0,"children":[{"name":"fullTitle","align":"tl","x":25,"y":6}]},
+            {"name":"controlBar","align":"blabs","x":0,"y":0,"children":[{"name":"streamButton","align":"tr","x":20,"y":23},
+                {"name":"timeDisplay","align":"tl","x":10,"y":24},
+                {"name":"fullScreenButton","align":"tr","x":20,"y":25},
+                {"name":"snapshot","align":"tr","x":20,"y":25},
+                {"name":"speedButton","align":"tr","x":10,"y":23}]}]
+    });
+</script>
+</body>
