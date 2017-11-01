@@ -4,20 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/VideoJs2017/auto-input-hls-player.html" description="&lt;script&gt;" line="36" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e498f0f5-437f-4f78-a16c-904994e1efb6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Aliplayer/Live001.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Aliplayer/Live002.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Aliplayer/Live003.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Aliplayer/Vod001.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Aliplayer/Vod002.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VideoJs-M3U8/index.html" afterPath="$PROJECT_DIR$/VideoJs-M3U8/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VideoJs2017(V2)/hls-stream.html" afterPath="$PROJECT_DIR$/VideoJs2017(V2)/hls-stream.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VideoJs2017(V2)/rtmp-stream.html" afterPath="$PROJECT_DIR$/VideoJs2017(V2)/rtmp-stream.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VideoJs2017/hls-stream.html" afterPath="$PROJECT_DIR$/VideoJs2017/hls-stream.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VideoJs2017/rtmp-stream.html" afterPath="$PROJECT_DIR$/VideoJs2017/rtmp-stream.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Video-Dev-Hls/index.html" afterPath="$PROJECT_DIR$/VideoDev-Hls/Demo1.html" />
-    </list>
+    <list default="true" id="e498f0f5-437f-4f78-a16c-904994e1efb6" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/Aliplayer/Vod001.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="110" />
+              <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="110" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -68,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/Aliplayer/Live003.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="55" />
+              <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="55" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -80,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/VideoDev-Hls/Demo1.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+              <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
               <folding>
                 <element signature="e#461#498#0" expanded="true" />
               </folding>
@@ -383,7 +370,7 @@
       <workItem from="1497234255088" duration="19000" />
       <workItem from="1506585248490" duration="2609000" />
       <workItem from="1509428397829" duration="605000" />
-      <workItem from="1509517441639" duration="3113000" />
+      <workItem from="1509517441639" duration="3143000" />
     </task>
     <task id="LOCAL-00001" summary="直播和点播HLS的M3U8播放(可输入动态改变HLS地址)，解决js跨域问题">
       <created>1491881434440</created>
@@ -511,11 +498,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496999261974</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Aliplayer">
+      <created>1509520572381</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1509520572381</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125466000" />
+    <option name="totallyTimeSpent" value="125496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1936" height="1066" extended-state="0" />
@@ -558,7 +552,8 @@
     <MESSAGE value=":penguin: :penguin: :penguin: update readme" />
     <MESSAGE value=":penguin: :penguin: :penguin: FFmpeg HLS 命令记录" />
     <MESSAGE value=":penguin: :penguin: :penguin: 官方文档http://www.ffmpeg.org/ffmpeg-formats.html" />
-    <option name="LAST_COMMIT_MESSAGE" value=":penguin: :penguin: :penguin: 官方文档http://www.ffmpeg.org/ffmpeg-formats.html" />
+    <MESSAGE value="Aliplayer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aliplayer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -871,7 +866,7 @@
     <entry file="file://$PROJECT_DIR$/Aliplayer/Vod001.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="110" />
+          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="110" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -911,7 +906,7 @@
     <entry file="file://$PROJECT_DIR$/Aliplayer/Live003.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="55" />
+          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="55" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -921,7 +916,7 @@
     <entry file="file://$PROJECT_DIR$/VideoDev-Hls/Demo1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
           <folding>
             <element signature="e#461#498#0" expanded="true" />
           </folding>
