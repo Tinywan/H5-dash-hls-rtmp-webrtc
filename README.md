@@ -1,4 +1,5 @@
 ### :hibiscus:  更新进度
++   2017年11月02日 星期四 添加一个[Aliplayer](https://player.alicdn.com/aliplayer/index.html)播放器，可以在线配置
 +   2017年04月18日 星期二 [解决VideoJs阿里云直播和点播跨域问题](http://www.cnblogs.com/tinywan/p/6234463.html)
 +   2017年06月06日 星期二 添加一个开源的播放器： Sewise-Player 播放器
 +   2017年06月07日 星期三 Play-RTMP-HLS-Stream 代码方法优化
