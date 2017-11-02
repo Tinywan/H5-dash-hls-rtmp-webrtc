@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e498f0f5-437f-4f78-a16c-904994e1efb6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Images/video-system.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Images/vod-system.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -48,8 +46,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="731">
-                <caret line="120" column="11" lean-forward="false" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="11" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="23" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -390,7 +388,7 @@
       <workItem from="1509428397829" duration="605000" />
       <workItem from="1509517441639" duration="4472000" />
       <workItem from="1509592198865" duration="224000" />
-      <workItem from="1509598819266" duration="156000" />
+      <workItem from="1509598819266" duration="370000" />
     </task>
     <task id="LOCAL-00001" summary="直播和点播HLS的M3U8播放(可输入动态改变HLS地址)，解决js跨域问题">
       <created>1491881434440</created>
@@ -532,11 +530,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509592363566</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="点播架构设计">
+      <created>1509598978540</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1509598978540</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127205000" />
+    <option name="totallyTimeSpent" value="127419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1936" height="1066" extended-state="0" />
@@ -582,7 +587,8 @@
     <MESSAGE value=":penguin: :penguin: :penguin: 官方文档http://www.ffmpeg.org/ffmpeg-formats.html" />
     <MESSAGE value="Aliplayer" />
     <MESSAGE value="添加一个 aliplayer-demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加一个 aliplayer-demo" />
+    <MESSAGE value="点播架构设计" />
+    <option name="LAST_COMMIT_MESSAGE" value="点播架构设计" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -925,8 +931,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="731">
-            <caret line="120" column="11" lean-forward="false" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="11" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="23" />
             <folding />
           </first_editor>
           <second_editor />

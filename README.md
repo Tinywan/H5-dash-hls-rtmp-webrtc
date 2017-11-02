@@ -1,3 +1,7 @@
+####  :bouquet: 多媒体架构设计
+![多媒体架构设计](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/video-system.png)    
+####  :rose: 点播架构设计
+![Markdown](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/vod-system.png) 
 ### :hibiscus:  更新进度
 +   2017年11月02日 星期四 添加一个[Aliplayer](https://player.alicdn.com/aliplayer/index.html)播放器，可以在线配置
 +   2017年04月18日 星期二 [解决VideoJs阿里云直播和点播跨域问题](http://www.cnblogs.com/tinywan/p/6234463.html)
@@ -116,7 +120,3 @@
     +   此示例将生成播放列表， out.m3u8，和段文件： 文件20160215-1455569023.ts， 文件20160215-1455569024.ts等等。注意：在某些系统/环境中，说明%s符不可用。见 strftime()文件。
 +   ts 文件转换成m3u8文件:`ffmpeg -i 854-1496985395500.ts -c copy -map 0 -f segment -segment_list playlist.m3u8 -segment_time 10 output%03d.ts`        
     
-#### 多媒体架构设计
-![多媒体架构设计](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/video-system.png)    
-#### 点播架构设计
-![Markdown](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/vod-system.png) 
