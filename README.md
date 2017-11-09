@@ -7,6 +7,12 @@
 +   2017年04月18日 星期二 [解决VideoJs阿里云直播和点播跨域问题](http://www.cnblogs.com/tinywan/p/6234463.html)
 +   2017年06月06日 星期二 添加一个开源的播放器： Sewise-Player 播放器
 +   2017年06月07日 星期三 Play-RTMP-HLS-Stream 代码方法优化
+### :tropical_fish: 直播源
++   HLS-001&emsp;`http://hls-live.jia.360.cn/live_jia_public/_LC_RE_non_3605277091515101384821337866_BX/index.m3u8`
++   香港卫视&emsp;`http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8`
++   CCTV1高清&emsp;`http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8`
++   CCTV5高清&emsp;`http://ivi.bupt.edu.cn/hls/cctv5hd.m3u8`
++   杭康&emsp;`http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8`
 ### :tropical_fish: 详细介绍
 +   以下测试延迟多为局域网测试环境（线上为阿里云平台测试）
 +   M3U8 直播或者点播DEMO
