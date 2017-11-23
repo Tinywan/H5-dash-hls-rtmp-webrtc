@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+// Create the XHR object.
+function createCORSRequest(method, url) {
+  var xhr = new XMLHttpRequest();
+  if ("withCredentials" in xhr) {
+    // XHR for Chrome/Firefox/Opera/Safari.
+    xhr.open(method, url, true);
+  } else if (typeof XDomainRequest != "undefined") {
+    // XDomainRequest for IE.
+    xhr = new XDomainRequest();
+    xhr.open(method, url);
+  } else {
+    // CORS not supported.
+    xhr = null;
+  }
+  return xhr;
+}
+// Make the actual CORS request.
+function makeCorsRequest() {
+  // All HTML5 Rocks properties support CORS.
+  var url = 'http://192.168.18.143/live/stream123/index.m3u8';
+  var xhr = createCORSRequest('GET', url);
+  if (!xhr) {
+    alert('CORS not supported');
+    return;
+  }
+  // Response handlers.
+  xhr.onload = function() {
+    var text = xhr.responseText;
+    var title = text;
+    alert('Response from CORS request to ' + url + ': ' + title);
+  };
+  xhr.onerror = function() {
+    alert('Woops, there was an error making the request.');
+  };
+  xhr.send();
+}
+</script>
+<p align="center" style="font-size: 20px;">
+<a href="#" onclick="makeCorsRequest(); return false;">Run Sample</a>
+</p>
+</body>
+</html>

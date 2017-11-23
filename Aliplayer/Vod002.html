@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge" >
+    <meta name="viewport"   content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+    <title>Aliplayer在线配置</title>
+    <link rel="stylesheet" href="//g.alicdn.com/de/prismplayer/2.2.0/skins/default/aliplayer-min.css" />
+    <script type="text/javascript" src="//g.alicdn.com/de/prismplayer/2.2.0/aliplayer-min.js"></script>
+</head>
+<body>
+<h1>倍速播放</h1>
+<div  class="prism-player" id="J_prismPlayer" style="position: absolute;left:0%;"></div>
+<script>
+    var player = new Aliplayer({
+        id: "J_prismPlayer",
+        autoplay: true,
+        isLive:false,
+        playsinline:true,
+        width:"100%",
+        height:"400px",
+        controlBarVisibility:"always",
+        useH5Prism:false,
+        useFlashPrism:false,
+        source:"https://vodcdn.alicdn.com/oss/taobao-ugc/1dde6e764244406cbe5962b26eee078c/1476754829/video.mp4",
+        cover:"",
+        skinLayout:[{"name":"H5Loading","align":"cc"},
+            {"name":"controlBar","align":"blabs","x":0,"y":0,"children":[{"name":"streamButton","align":"tr","x":20,"y":23},
+                {"name":"setButton","align":"tr","x":20,"y":25},
+                {"name":"progress","align":"tlabs","x":0,"y":0},
+                {"name":"playButton","align":"tl","x":15,"y":26},
+                {"name":"speedButton","align":"tr","x":10,"y":23},
+                {"name":"fullScreenButton","align":"tr","x":20,"y":25},
+                {"name":"timeDisplay","align":"tl","x":10,"y":24}]},
+            {"name":"fullControlBar","align":"tlabs","x":0,"y":0,"children":[{"name":"fullTitle","align":"tl","x":25,"y":6},
+                {"name":"fullTimeDisplay","align":"tr","x":10,"y":12},
+                {"name":"fullZoom","align":"cc"},
+                {"name":"fullNormalScreenButton","align":"tr","x":24,"y":13}]},
+            {"name":"bigPlayButton","align":"blabs","x":30,"y":80}]
+    });
+</script>
+</body>

@@ -1,7 +1,20 @@
+####  :bouquet: 多媒体架构设计
+![多媒体架构设计](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/video-system.png)    
+####  :rose: 点播架构设计
+![Markdown](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/vod-system.png) 
 ### :hibiscus:  更新进度
++   2017年11月23日 星期四 [mediaelement](https://github.com/mediaelement/mediaelement)
+    > 支持MP4，WebM和MP3以及HLS，Dash，YouTube，Facebook，SoundCloud和其他HTML5 MediaElement API的HTML5 <audio>或<video>播放器，可在所有浏览器中实现一致的UI。
++   2017年11月02日 星期四 添加一个[Aliplayer](https://player.alicdn.com/aliplayer/index.html)播放器，可以在线配置
 +   2017年04月18日 星期二 [解决VideoJs阿里云直播和点播跨域问题](http://www.cnblogs.com/tinywan/p/6234463.html)
 +   2017年06月06日 星期二 添加一个开源的播放器： Sewise-Player 播放器
 +   2017年06月07日 星期三 Play-RTMP-HLS-Stream 代码方法优化
+### :tropical_fish: 直播源
++   HLS-001&emsp;`http://hls-live.jia.360.cn/live_jia_public/_LC_RE_non_3605277091515101384821337866_BX/index.m3u8`
++   香港卫视&emsp;`http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8`
++   CCTV1高清&emsp;`http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8`
++   CCTV5高清&emsp;`http://ivi.bupt.edu.cn/hls/cctv5hd.m3u8`
++   杭康&emsp;`http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8`
 ### :tropical_fish: 详细介绍
 +   以下测试延迟多为局域网测试环境（线上为阿里云平台测试）
 +   M3U8 直播或者点播DEMO
@@ -114,5 +127,4 @@
     +   格式：`ffmpeg -i in.nut -use_localtime 1 -hls_segment_filename'file-％Y％m％d-％s.ts'out.m3u8`
     +   此示例将生成播放列表， out.m3u8，和段文件： 文件20160215-1455569023.ts， 文件20160215-1455569024.ts等等。注意：在某些系统/环境中，说明%s符不可用。见 strftime()文件。
 +   ts 文件转换成m3u8文件:`ffmpeg -i 854-1496985395500.ts -c copy -map 0 -f segment -segment_list playlist.m3u8 -segment_time 10 output%03d.ts`        
-    
     

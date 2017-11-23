@@ -14,17 +14,15 @@
 <body>
 <center>
     <h1>HLS 的M3U8 播放</h1>
-    <video id=live-stream class="video-js vjs-default-skin" controls>
-        <source
-                src="http://122.224.187.166:8081/live/CY000098778.m3u8"
-                type="application/x-mpegURL">
+    <video id=live-stream class="video-js vjs-default-skin vjs-big-play-centered" controls autoplay preload="auto" poster="image/video-background.jpg" data-setup='{"example_option":true}'>
+        <source src="http://nginx-vod.tinywan.com:8386/stream/http/oss.tinywan.com/data/201710008/video/1509184568478.mp4/index.m3u8" type="application/x-mpegURL">
     </video>
 </center>
 <script src="videojs/video.js"></script>
 <script src="videojs/videojs-contrib-hls.min.js"></script>
 <script>
     var options = {
-        width: 240,
+        width: 680,
         height: 360
     }
     var player = videojs('live-stream', options);
