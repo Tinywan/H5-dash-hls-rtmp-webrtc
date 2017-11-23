@@ -3,7 +3,7 @@
 ####  :rose: 点播架构设计
 ![Markdown](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/vod-system.png) 
 ### :hibiscus:  更新进度
-+   2017年11月23日 星期四 [mediaelement](https://github.com/mediaelement/mediaelement)
++   2017年11月23日 星期四 [mediaelement 播放器](https://github.com/mediaelement/mediaelement)
     > 支持MP4，WebM和MP3以及HLS，Dash，YouTube，Facebook，SoundCloud和其他HTML5 MediaElement API的HTML5 <audio>或<video>播放器，可在所有浏览器中实现一致的UI。
 +   2017年11月02日 星期四 添加一个[Aliplayer](https://player.alicdn.com/aliplayer/index.html)播放器，可以在线配置
 +   2017年04月18日 星期二 [解决VideoJs阿里云直播和点播跨域问题](http://www.cnblogs.com/tinywan/p/6234463.html)
