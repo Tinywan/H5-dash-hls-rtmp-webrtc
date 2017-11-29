@@ -6,6 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="e498f0f5-437f-4f78-a16c-904994e1efb6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VideoJs2017/hls-stream.html" afterPath="$PROJECT_DIR$/VideoJs2017/hls-stream.html" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+>>>>>>> 4eb85ede4316bd5fcce740d37b242ffde9d2f19f
+>>>>>>> 6dad73c798ce438526c9e4afdadacac195411414
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,6 +25,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="1976">
+                <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+=======
       <file leaf-file-name="Vod001.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Aliplayer/Vod001.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,7 +62,12 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="0">
+<<<<<<< HEAD
                 <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+                <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="23" />
+>>>>>>> 4eb85ede4316bd5fcce740d37b242ffde9d2f19f
+>>>>>>> 6dad73c798ce438526c9e4afdadacac195411414
                 <folding />
               </first_editor>
               <second_editor />
@@ -54,6 +75,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="comments.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Div+Css/First/comments.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,6 +86,16 @@
           </provider>
         </entry>
       </file>
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="rtmp-stream.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VideoJs2017(V2)/rtmp-stream.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="53" />
+              <folding />
+=======
+>>>>>>> 6dad73c798ce438526c9e4afdadacac195411414
       <file leaf-file-name="Live002.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Aliplayer/Live002.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -72,10 +104,19 @@
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+>>>>>>> 4eb85ede4316bd5fcce740d37b242ffde9d2f19f
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="hls-stream.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/VideoJs2017/hls-stream.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="132" lean-forward="false" selection-start-line="18" selection-start-column="132" selection-end-line="18" selection-end-column="132" />
+              <folding />
+=======
       <file leaf-file-name="Live003.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Aliplayer/Live003.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -106,15 +147,24 @@
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+>>>>>>> 4eb85ede4316bd5fcce740d37b242ffde9d2f19f
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="hls-stream.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VideoJs2017(V2)/hls-stream.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="55" />
+=======
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/m3u8-IE-Support/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
               <caret line="20" column="93" lean-forward="false" selection-start-line="20" selection-start-column="93" selection-end-line="20" selection-end-column="93" />
+>>>>>>> 4eb85ede4316bd5fcce740d37b242ffde9d2f19f
               <folding />
             </state>
           </provider>
@@ -187,6 +237,7 @@
         <option value="$PROJECT_DIR$/VideoDev-Hls/Demo1.html" />
         <option value="$PROJECT_DIR$/Aliplayer/Live001.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/VideoJs2017/hls-stream.html" />
       </list>
     </option>
   </component>
@@ -199,7 +250,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="1936" />
+    <option name="width" value="1924" />
     <option name="height" value="1066" />
   </component>
   <component name="ProjectView">
@@ -217,15 +268,47 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+>>>>>>> 6dad73c798ce438526c9e4afdadacac195411414
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Html5-m3u8-RTMP" />
+              <option name="myItemId" value="html5-m3u8-rtmp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Html5-m3u8-RTMP" />
+              <option name="myItemId" value="html5-m3u8-rtmp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html5-m3u8-rtmp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html5-m3u8-rtmp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VideoJs2017(V2)" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html5-m3u8-rtmp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html5-m3u8-rtmp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VideoJs2017" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -246,7 +329,10 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+<<<<<<< HEAD
       <pane id="Scratches" />
+=======
+>>>>>>> 6dad73c798ce438526c9e4afdadacac195411414
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -390,15 +476,28 @@
       <workItem from="1496798025629" duration="18380000" />
       <workItem from="1496826548714" duration="608000" />
       <workItem from="1496970559755" duration="1243000" />
+<<<<<<< HEAD
+      <workItem from="1496994780114" duration="1924000" />
+      <workItem from="1508930497886" duration="791000" />
+      <workItem from="1509017566732" duration="1633000" />
+      <workItem from="1509118285954" duration="203000" />
+      <workItem from="1509182018826" duration="688000" />
+      <workItem from="1511437921108" duration="115000" />
+=======
       <workItem from="1496994780114" duration="1939000" />
       <workItem from="1497234255088" duration="19000" />
       <workItem from="1506585248490" duration="2609000" />
       <workItem from="1509428397829" duration="605000" />
       <workItem from="1509517441639" duration="4472000" />
       <workItem from="1509592198865" duration="224000" />
+<<<<<<< HEAD
       <workItem from="1509598819266" duration="481000" />
       <workItem from="1510017303205" duration="13000" />
       <workItem from="1511941993571" duration="24000" />
+=======
+      <workItem from="1509598819266" duration="370000" />
+>>>>>>> 4eb85ede4316bd5fcce740d37b242ffde9d2f19f
+>>>>>>> 6dad73c798ce438526c9e4afdadacac195411414
     </task>
     <task id="LOCAL-00001" summary="直播和点播HLS的M3U8播放(可输入动态改变HLS地址)，解决js跨域问题">
       <created>1491881434440</created>
@@ -558,13 +657,29 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="127567000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="122535000" />
+=======
+    <option name="totallyTimeSpent" value="127419000" />
+>>>>>>> 4eb85ede4316bd5fcce740d37b242ffde9d2f19f
+>>>>>>> 6dad73c798ce438526c9e4afdadacac195411414
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1936" height="1066" extended-state="0" />
+    <frame x="-8" y="0" width="1924" height="1066" extended-state="0" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16791044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+<<<<<<< HEAD
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1668455" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1663113" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 4eb85ede4316bd5fcce740d37b242ffde9d2f19f
+>>>>>>> 6dad73c798ce438526c9e4afdadacac195411414
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -572,7 +687,11 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+=======
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+>>>>>>> 4eb85ede4316bd5fcce740d37b242ffde9d2f19f
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -613,6 +732,62 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/VideoJs2017/rtmp-stream.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Play-RTMP-HLS-Stream/inputplay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoJs2017/rtmp-stream-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5058">
+          <caret line="281" column="9" lean-forward="false" selection-start-line="281" selection-start-column="9" selection-end-line="281" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoJs2017/hls-stream.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoJs2017/rtmp-stream.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="53" lean-forward="false" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoJs2017/hls-stream.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="46" column="4" lean-forward="false" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoJs2017/rtmp-stream-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5058">
+          <caret line="281" column="9" lean-forward="false" selection-start-line="281" selection-start-column="9" selection-end-line="281" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> 4eb85ede4316bd5fcce740d37b242ffde9d2f19f
+    <entry file="file://$USER_HOME$/Desktop/videojs-contrib-hls.js" />
+>>>>>>> 6dad73c798ce438526c9e4afdadacac195411414
     <entry file="file://$PROJECT_DIR$/VideoJs2017/test/crossdomain.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -627,6 +802,10 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Video-Dev-Hls/js/hls.light.min.js" />
+    <entry file="file://$PROJECT_DIR$/Video-Dev-Hls/js/hls.js" />
+=======
     <entry file="file://$PROJECT_DIR$/VideoDev-Hls/js/hls.light.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -634,6 +813,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> 4eb85ede4316bd5fcce740d37b242ffde9d2f19f
     <entry file="file://$PROJECT_DIR$/VideoJs2017/videojs/videojs-ie8.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -660,6 +840,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+<<<<<<< HEAD
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoJs-M3U8/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m3u8-IE-Support/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="93" lean-forward="false" selection-start-line="20" selection-start-column="93" selection-end-line="20" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoJs2017/auto-input-hls-player.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1476">
+          <caret line="82" column="70" lean-forward="false" selection-start-line="82" selection-start-column="70" selection-end-line="82" selection-end-column="70" />
+          <folding />
+=======
+>>>>>>> 4eb85ede4316bd5fcce740d37b242ffde9d2f19f
         </state>
       </provider>
     </entry>
@@ -726,13 +931,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Play-RTMP-HLS-Stream/swfobject1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Play-RTMP-HLS-Stream/swfobject1.js" />
     <entry file="file://$PROJECT_DIR$/Play-RTMP-HLS-Stream/swfobject.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -761,13 +960,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/VideoJs2017(V2)/auto-input-hls-player.html" />
     <entry file="file://$PROJECT_DIR$/HlS/hls/hls.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -784,13 +977,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VideoJs2017/index123.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoJs2017/index123.html" />
     <entry file="file://$PROJECT_DIR$/VideoJs2017(V2)/test/sources01.html" />
     <entry file="file://$PROJECT_DIR$/HlS/API01.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -800,15 +987,48 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Documents/Tencent Files/756684177/FileRecv/location.md" />
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/VideoJs2017/rtmp-stream.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" column="43" lean-forward="false" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1976">
+            <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/VideoJs2017(V2)/hls-stream.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="55" />
+=======
+>>>>>>> 6dad73c798ce438526c9e4afdadacac195411414
     <entry file="file://$PROJECT_DIR$/VideoJs2017/auto-input-hls-player.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1173">
           <caret line="82" column="70" lean-forward="false" selection-start-line="82" selection-start-column="70" selection-end-line="82" selection-end-column="70" />
+>>>>>>> 4eb85ede4316bd5fcce740d37b242ffde9d2f19f
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/VideoJs2017(V2)/rtmp-stream.html">
+<<<<<<< HEAD
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="53" />
+=======
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
@@ -861,10 +1081,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="93" lean-forward="false" selection-start-line="20" selection-start-column="93" selection-end-line="20" selection-end-column="93" />
+>>>>>>> 4eb85ede4316bd5fcce740d37b242ffde9d2f19f
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/VideoJs2017/hls-stream.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="132" lean-forward="false" selection-start-line="18" selection-start-column="132" selection-end-line="18" selection-end-column="132" />
+          <folding />
+=======
     <entry file="file://$PROJECT_DIR$/Aliplayer/Vod001.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -956,6 +1184,7 @@
             <folding />
           </first_editor>
           <second_editor />
+>>>>>>> 4eb85ede4316bd5fcce740d37b242ffde9d2f19f
         </state>
       </provider>
     </entry>
