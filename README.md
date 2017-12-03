@@ -5,12 +5,8 @@
 ####  :rose: 点播流程图
 ![Markdown2](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/aliyun-viedo-upload.svg) 
 ### :hibiscus:  更新进度
-+   2017年12月1日 星期五 [mediaelement 播放器](https://github.com/mediaelement/mediaelement)
-    +   [HTTP访问控制（CORS）](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Access_control_CORS)
-    +   [使用 canvas 处理视频](https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API/Manipulating_video_using_canvas)
-    +   [音频和视频内容](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content)
-    +   [基于HTTP的动态自适应流媒体](https://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP)
-+   2017年11月23日 星期四 [mediaelement 播放器](https://github.com/mediaelement/mediaelement)
++   2017年11月23日 星期四 [mediaelement player 播放器](https://github.com/mediaelement/mediaelement)
+    +   [Online Demo](http://github.tinywan.com/html5-dash-hls-rtmp/MediaElement/)  
     > 支持MP4，WebM和MP3以及HLS，Dash，YouTube，Facebook，SoundCloud和其他HTML5 MediaElement API的HTML5 <audio>或<video>播放器，可在所有浏览器中实现一致的UI。
 +   2017年11月02日 星期四 添加一个[Aliplayer](https://player.alicdn.com/aliplayer/index.html)播放器，可以在线配置
 +   2017年04月18日 星期二 [解决VideoJs阿里云直播和点播跨域问题](http://www.cnblogs.com/tinywan/p/6234463.html)
@@ -130,7 +126,11 @@
         > 是一个开源的跨平台多媒体框架，允许您创建各种媒体处理组件，包括流媒体组件。通过它的插件系统，GStreamer可以支持一百多种编解码器（包括MPEG-1，MPEG-2，MPEG-4，H.261，H.263，H.264，RealVideo，MP3，WMV和FLV）。
     +   对于RTMP传输，您可以使用[Nginx RTMP模块](https://github.com/arut/nginx-rtmp-module)    
     +   [SHOUTcast](http://en.wikipedia.org/wiki/SHOUTcast) 
-    +   [为 HTML 5 视频提供的 DASH 自适应串流](https://developer.mozilla.org/zh-CN/docs/Web/HTML/DASH_Adaptive_Streaming_for_HTML_5_Video)       
++   [为 HTML 5 视频提供的 DASH 自适应串流](https://developer.mozilla.org/zh-CN/docs/Web/HTML/DASH_Adaptive_Streaming_for_HTML_5_Video)    
++   [HTTP访问控制（CORS）](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Access_control_CORS)
++   [使用 canvas 处理视频](https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API/Manipulating_video_using_canvas)
++   [音频和视频内容](https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content)
++   [基于HTTP的动态自适应流媒体](https://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP)       
 ## FFmpeg HLS 命令记录
 +   [官方文档http://www.ffmpeg.org/ffmpeg-formats.html](http://www.ffmpeg.org/ffmpeg-formats.html)
 +   `hls_segment_filename` 文件名
