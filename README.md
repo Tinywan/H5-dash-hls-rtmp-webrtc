@@ -105,16 +105,14 @@
         + [2017年6月7日 下午 16:00 ] 代码优化,该页面进行过优化`play2video2.html`，默认静音播放
 
 #### Video-dev-Hls
-   + [https://github.com/video-dev/hls.js](https://github.com/video-dev/hls.js)
-   + 测试案例
++ [https://github.com/video-dev/hls.js](https://github.com/video-dev/hls.js)
++ 测试案例
    
 #### Sewise-Player 播放器
 +   [https://github.com/jackzhang1204/sewise-player](https://github.com/jackzhang1204/sewise-player)
     
 #### (Push)Play-RTMP-Info (功能比较强大)
 + 播放RTMP直播流,同时显示直播流的详细信息
-    ![Markdown](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/push-rtmp-play-rtmp-html.png)
-+ 探索中...    
 
 ##  音频和视频技术文档
 +   [实时流式传输网络音频和视频](https://developer.mozilla.org/en-US/Apps/Fundamentals/Audio_and_video_delivery/Live_streaming_web_audio_and_video)
@@ -131,7 +129,7 @@
 +   [展望2018音视频技术：AV1，AI，区块链，WebRTC](http://mp.weixin.qq.com/s/lX9WWqSS0KGQddrOVqV-Jg)       
 +   [怎么让不可靠的UDP可靠？](http://mp.weixin.qq.com/s/-yJH782XEnaezr7NWu8lIw)        
 +   [Twitch如何实现转码器比FFmepg性能提升65%？（上）](http://mp.weixin.qq.com/s/F7BBKM5heMu6EN705N504A)        
-+   [Twitch如何实现转码器比FFmpeg性能提升65%？（下）](Thttp://mp.weixin.qq.com/s/BCMLzV9MlOjsnHzzfkTKkA)     
++   [Twitch如何实现转码器比FFmpeg性能提升65%？（下）](http://mp.weixin.qq.com/s/BCMLzV9MlOjsnHzzfkTKkA)     
      
 ## FFmpeg HLS 命令记录
 +   [https://github.com/video-dev/hls.js](https://github.com/video-dev/hls.js)
