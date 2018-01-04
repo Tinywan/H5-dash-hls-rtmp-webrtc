@@ -5,7 +5,7 @@
 ####  :rose: 点播流程图
 ![Markdown2](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/aliyun-viedo-upload.svg) 
 ### :hibiscus:  更新进度
-+   2017年11月23日 星期四 [mediaelement player 播放器](https://github.com/mediaelement/mediaelement) [在线 Demo](http://github.tinywan.com/html5-dash-hls-rtmp/MediaElement/)  
++   2017年11月23日 星期四 [mediaelement player 播放器](https://github.com/mediaelement/mediaelement) 【[在线 Demo](http://github.tinywan.com/html5-dash-hls-rtmp/MediaElement/)】  
 
     > 支持MP4，WebM和MP3以及HLS，Dash，YouTube，Facebook，SoundCloud和其他HTML5 MediaElement API的HTML5 <audio>或<video>播放器，可在所有浏览器中实现一致的UI。  
     
