@@ -1,9 +1,9 @@
 ####  :bouquet: 多媒体架构设计
-![多媒体架构设计](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/video-system.png)    
+![多媒体架构设计](/Images/video-system.png)    
 ####  :rose: 点播架构设计
-![Markdown](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/vod-system.png) 
+![Markdown](/Images/vod-system.png) 
 ####  :rose: 点播流程图
-![Markdown2](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/aliyun-viedo-upload.svg) 
+![Markdown2](/Images/aliyun-viedo-upload.svg) 
 ### :hibiscus:  更新进度
 +   2017年11月23日 星期四 [mediaelement player 播放器](https://github.com/mediaelement/mediaelement) 【[在线 Demo](http://github.tinywan.com/html5-dash-hls-rtmp/MediaElement/)】  
 
@@ -34,9 +34,9 @@
 + [x] 皮肤支持
     + [官方皮肤](http://www.scriptsmashup.com/Video_Skin_Generator/Videojs/videojs-skin-generator.html)
     + YouTouBe
-       + ![YouTouBe](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/YouTouBe.jpg)
+       + ![YouTouBe](/Images/YouTouBe.jpg)
      + facebook-player   
-       + ![facebook-player](https://github.com/Tinywan/Html5-m3u8-RTMP/blob/master/Images/facebook.jpg)
+       + ![facebook-player](/Images/facebook.jpg)
 ### :cloud: m3u8-IE-Support 
 + [x] 兼容所有浏览器
 + [x] 支持IE11 浏览器播放  
