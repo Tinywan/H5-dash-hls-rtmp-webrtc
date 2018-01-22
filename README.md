@@ -5,6 +5,7 @@
 ####  :rose: 点播流程图
 ![Markdown2](/Images/aliyun-viedo-upload.svg) 
 ### :hibiscus:  更新列表
++   2018年1月22日 星期二 Web 网页中使用 vlc 插件播放相机/摄像头 rtsp 流视频
 +   2018年1月16日 星期二 [音视频解决方案 NGINX-RTMP-TS-DASH](https://github.com/Tinywan/NGINX-RTMP-TS-DASH)
 +   2017年11月23日 星期四 [mediaelement player 播放器](https://github.com/mediaelement/mediaelement) 【[在线 Demo](http://github.tinywan.com/html5-dash-hls-rtmp/MediaElement/)】
 

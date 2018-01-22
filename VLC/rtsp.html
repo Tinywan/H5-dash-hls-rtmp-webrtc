@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>web网页中使用vlc插件播放相机rtsp流视频</title>
+</head>
+<body>
+<h1>web网页中使用vlc插件播放相机/摄像头 rtsp 流视频</h1>
+<!--[if IE]>
+<object type='application/x-vlc-plugin' id='vlc' events='True'
+        classid='clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921' codebase="http://downloads.videolan.org/pub/videolan/vlc/latest/win32/axvlc.cab" width="720" height="540">
+    <param name='mrl' value='rtsp://192.168.18.240:554/onvif/live/1' />
+    <param name='volume' value='50' />
+    <param name='autoplay' value='true' />
+    <param name='loop' value='false' />
+    <param name='fullscreen' value='false' />
+</object>
+<![endif]-->
+<!--[if !IE]><!-->
+<object type='application/x-vlc-plugin' id='vlc' events='True' width="720" height="540" pluginspage="http://www.videolan.org" codebase="http://downloads.videolan.org/pub/videolan/vlc-webplugins/2.0.6/npapi-vlc-2.0.6.tar.xz">
+    <param name='mrl' value='rtsp://192.168.18.240:554/onvif/live/1' />
+    <param name='volume' value='50' />
+    <param name='autoplay' value='true' />
+    <param name='loop' value='false' />
+    <param name='fullscreen' value='false' />
+</object>
+<!--<![endif]-->
+</body>
+</html>

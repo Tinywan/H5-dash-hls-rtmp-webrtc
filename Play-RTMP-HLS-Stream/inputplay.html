@@ -91,13 +91,12 @@
                 src: src,
                 autoPlay: "true",
                 verbose: "true",
-                volume: "0",
+                volume: "100",
                 controlBarAutoHide: "true",
                 controlBarPosition: "bottom",
                 poster: poster,
                 plugin_hls: $URL + "HLSDynamicPlugin.swf"
             };
-            var wmodeValue = "transparent";
             swfobject.embedSWF(
                 $URL + "StrobeMediaPlayback.swf"
                 , player_id
@@ -108,7 +107,8 @@
                 , parameters
                 , {
                     allowFullScreen: "true",
-                    wmode: wmodeValue
+                    quality: "medium",
+                    wmode: "transparent"
                 }
                 , {
                     name: player_id
