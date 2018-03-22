@@ -8,7 +8,7 @@
 +   2018年3月22日 星期五四 
     *   [视频插件 video.js的用法](http://www.jq22.com/jquery-info404)
     *   [视频直播常见问题与解决办法汇总](https://yq.aliyun.com/articles/511196)
-    *   [媒体转码HLS标准加密详解](https://yq.aliyun.com/articles/277348)
+    *   [在Ubuntu 14.04上安装Nginx-RTMP](https://www.vultr.com/docs/setup-nginx-rtmp-on-ubuntu-14-04)
 +   2018年1月16日 星期二 [音视频解决方案 NGINX-RTMP-TS-DASH](https://github.com/Tinywan/NGINX-RTMP-TS-DASH)
 +   2017年11月23日 星期四 [mediaelement player 播放器](https://github.com/mediaelement/mediaelement) 【[在线 Demo](/docs/MediaElement/index.html)】
 
