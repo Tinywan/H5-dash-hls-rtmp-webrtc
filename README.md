@@ -5,10 +5,10 @@
 ####  :rose: 点播流程图
 ![Markdown2](/Images/aliyun-viedo-upload.svg) 
 ### :hibiscus:  更新列表
-+   2018年3月09日 星期五 
-    *   [视频直播常见问题与解决办法汇总](https://yq.aliyun.com/articles/511196?spm=a2c4e.11155435.0.0.35181c6eu6vrE0)
++   2018年3月22日 星期五四 
     *   [视频插件 video.js的用法](http://www.jq22.com/jquery-info404)
-+   2018年1月22日 星期二 [Web 网页中使用 vlc 插件播放相机/摄像头 rtsp 流视频](/docs/VLC/rtsp.html)
+    *   [视频直播常见问题与解决办法汇总](https://yq.aliyun.com/articles/511196)
+    *   [媒体转码HLS标准加密详解](https://yq.aliyun.com/articles/277348)
 +   2018年1月16日 星期二 [音视频解决方案 NGINX-RTMP-TS-DASH](https://github.com/Tinywan/NGINX-RTMP-TS-DASH)
 +   2017年11月23日 星期四 [mediaelement player 播放器](https://github.com/mediaelement/mediaelement) 【[在线 Demo](/docs/MediaElement/index.html)】
 
