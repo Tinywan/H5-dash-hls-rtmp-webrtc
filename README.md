@@ -8,7 +8,8 @@
 +   2018年6月8日 星期四 
     *   [开源播放器clappr](https://github.com/clappr/clappr) 
     *   支持格式：`hls, dash, ogg, webm, mp4, rtmp either live or video on demand` 
-    *   [demo](/clappr/index.html) 
+    *   [DEMO01](http://github.tinywan.com/html5-dash-hls-rtmp/clappr/index.html) 
+    *   [DEMO02](http://github.tinywan.com/html5-dash-hls-rtmp/clappr/index2.html) 
 +   2018年3月22日 星期五 
     *   [视频插件 video.js的用法](http://www.jq22.com/jquery-info404)
     *   [视频直播常见问题与解决办法汇总](https://yq.aliyun.com/articles/511196)
