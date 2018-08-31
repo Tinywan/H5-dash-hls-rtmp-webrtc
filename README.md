@@ -6,6 +6,7 @@
 ![Markdown2](/Images/aliyun-viedo-upload.svg) 
 ### :hibiscus:  更新列表
 * 2018年8月31日 星期五   
+  * [自定义音频播放器的实现](https://hehuiyun.github.io/2018/07/27/%E8%87%AA%E5%AE%9A%E4%B9%89%E9%9F%B3%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8%E7%9A%84%E5%AE%9E%E7%8E%B0/#more)  
   * [HLS-iOS视频播放服务架构深入探究（二）](https://yangchao0033.github.io/blog/2016/02/14/hls-2/)
   * [HLS-iOS视频播放服务架构深入探究（一）](https://yangchao0033.github.io/blog/2016/01/29/hls-1/)  
   * [HTTP Live Streaming (HLS) - 概念](https://www.jianshu.com/p/2ce402a485ca) 
@@ -19,7 +20,6 @@
     *   [在Ubuntu 14.04上安装Nginx-RTMP](https://www.vultr.com/docs/setup-nginx-rtmp-on-ubuntu-14-04)
 +   2018年1月16日 星期二 [音视频解决方案 NGINX-RTMP-TS-DASH](https://github.com/Tinywan/NGINX-RTMP-TS-DASH)
 +   2017年11月23日 星期四 [mediaelement player 播放器](https://github.com/mediaelement/mediaelement) 【[在线 Demo](/docs/MediaElement/index.html)】
-
     > 支持MP4，WebM和MP3以及HLS，Dash，YouTube，Facebook，SoundCloud和其他HTML5 MediaElement API的HTML5 <audio>或<video>播放器，可在所有浏览器中实现一致的UI。  
     
 +   2017年11月02日 星期四 添加一个[Aliplayer](https://player.alicdn.com/aliplayer/index.html)播放器，可以在线配置
@@ -27,7 +27,7 @@
 +   2017年06月06日 星期二 添加一个开源的播放器： Sewise-Player 播放器
 +   2017年06月07日 星期三 Play-RTMP-HLS-Stream 代码方法优化
 ### :tropical_fish: 直播源
-+   HLS-001&emsp;`http://hls-live.jia.360.cn/live_jia_public/_LC_RE_non_3605277091515101384821337866_BX/index.m3u8`
++  HLS-001：`http://hls-live.jia.360.cn/live_jia_public/_LC_RE_non_3605277091515101384821337866_BX/index.m3u8`
 +   香港卫视&emsp;`http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8`
 +   CCTV1高清&emsp;`http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8`
 +   CCTV5高清&emsp;`http://ivi.bupt.edu.cn/hls/cctv5hd.m3u8`
@@ -47,9 +47,9 @@
 + [x] 皮肤支持
     + [官方皮肤](http://www.scriptsmashup.com/Video_Skin_Generator/Videojs/videojs-skin-generator.html)
     + YouTouBe
-       + ![YouTouBe](/Images/YouTouBe.jpg)
-     + facebook-player   
-       + ![facebook-player](/Images/facebook.jpg)
+    ![YouTouBe](/Images/YouTouBe.jpg)
+    + facebook-player   
+    ![facebook-player](/Images/facebook.jpg)
 ### :cloud: m3u8-IE-Support 
 + [x] 兼容所有浏览器
 + [x] 支持IE11 浏览器播放  
@@ -120,7 +120,6 @@
 
 #### Video-dev-Hls
 + [https://github.com/video-dev/hls.js](https://github.com/video-dev/hls.js)
-+ 测试案例
   
 #### Sewise-Player 播放器
 +   [https://github.com/jackzhang1204/sewise-player](https://github.com/jackzhang1204/sewise-player)
