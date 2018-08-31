@@ -10,22 +10,24 @@
   * [HLS-iOS视频播放服务架构深入探究（二）](https://yangchao0033.github.io/blog/2016/02/14/hls-2/)
   * [HLS-iOS视频播放服务架构深入探究（一）](https://yangchao0033.github.io/blog/2016/01/29/hls-1/)  
   * [HTTP Live Streaming (HLS) - 概念](https://www.jianshu.com/p/2ce402a485ca) 
-+   2018年6月8日 星期四 
-    * [开源播放器clappr](https://github.com/clappr/clappr) 
-      > 支持格式：`hls, dash, ogg, webm, mp4, rtmp either live or video on demand` 
-    *   [demo1](http://github.tinywan.com/html5-dash-hls-rtmp/clappr/index.html)   [demo2](http://github.tinywan.com/html5-dash-hls-rtmp/clappr/index2.html) 
-+   2018年3月22日 星期五 
-    *   [视频插件 video.js的用法](http://www.jq22.com/jquery-info404)
-    *   [视频直播常见问题与解决办法汇总](https://yq.aliyun.com/articles/511196)
-    *   [在Ubuntu 14.04上安装Nginx-RTMP](https://www.vultr.com/docs/setup-nginx-rtmp-on-ubuntu-14-04)
-+   2018年1月16日 星期二 [音视频解决方案 NGINX-RTMP-TS-DASH](https://github.com/Tinywan/NGINX-RTMP-TS-DASH)
-+   2017年11月23日 星期四 [mediaelement player 播放器](https://github.com/mediaelement/mediaelement) 【[在线 Demo](/docs/MediaElement/index.html)】
-    > 支持MP4，WebM和MP3以及HLS，Dash，YouTube，Facebook，SoundCloud和其他HTML5 MediaElement API的HTML5 <audio>或<video>播放器，可在所有浏览器中实现一致的UI。  
-    
-+   2017年11月02日 星期四 添加一个[Aliplayer](https://player.alicdn.com/aliplayer/index.html)播放器，可以在线配置
-+   2017年04月18日 星期二 [解决VideoJs阿里云直播和点播跨域问题](http://www.cnblogs.com/tinywan/p/6234463.html)
-+   2017年06月06日 星期二 添加一个开源的播放器： Sewise-Player 播放器
-+   2017年06月07日 星期三 Play-RTMP-HLS-Stream 代码方法优化
+* 2018年3月22日 星期五 
+  * [视频插件 video.js的用法](http://www.jq22.com/jquery-info404)  
+  * [视频直播常见问题与解决办法汇总](https://yq.aliyun.com/articles/511196)  
+  * [在Ubuntu 14.04上安装Nginx-RTMP](https://www.vultr.com/docs/setup-nginx-rtmp-on-ubuntu-14-04)  
+* 2018年1月16日 星期二 [音视频解决方案 NGINX-RTMP-TS-DASH](https://github.com/Tinywan/NGINX-RTMP-TS-DASH)  
+* 2017年04月18日 星期二 [解决VideoJs阿里云直播和点播跨域问题](http://www.cnblogs.com/tinywan/p/6234463.html)
+* 2017年06月06日 星期二 开源的播放器  
+  * :computer: [Aliplayer 播放器](https://player.alicdn.com/aliplayer/index.html)
+  * :computer: [Video-dev-Hls 播放器 ](https://github.com/video-dev/hls.js)  
+  * :computer: [ Sewise-Player 播放器](https://github.com/jackzhang1204/sewise-player)  
+  * :computer: [clappr 播放器](https://github.com/clappr/clappr)   
+    *  支持格式：`hls, dash, ogg, webm, mp4, rtmp either live or video on demand`   
+    *  :computer:  [在线预览1](http://github.tinywan.com/html5-dash-hls-rtmp/clappr/index.html)  
+    *  :computer:  [在线预览2](http://github.tinywan.com/html5-dash-hls-rtmp/clappr/index2.html)  
+  * [mediaelement player 播放器](https://github.com/mediaelement/mediaelement)  
+    * 支持格式：`支持MP4，WebM和MP3以及HLS，Dash，YouTube，Facebook，SoundCloud和其他HTML5 MediaElement API的HTML5 <audio>或<video>播放器，可在所有浏览器中实现一致的UI`  
+    * :computer:  [在线预览](http://github.tinywan.com/html5-dash-hls-rtmp/MediaElement/index.html)
+* 2017年06月07日 星期三 Play-RTMP-HLS-Stream 代码方法优化
 ### :tropical_fish: 直播源
 +  HLS-001：`http://hls-live.jia.360.cn/live_jia_public/_LC_RE_non_3605277091515101384821337866_BX/index.m3u8`
 +   香港卫视&emsp;`http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8`
@@ -116,26 +118,16 @@
     + [x] 7、待解决问题：js 调用swf问题~~~~~~~~~~~
     + [x] 测试进度
         + [2017年4月10日 下午 16:00 ] 局域网的HSL和RTMP流延迟的测试，测试结果：RTMP 延迟：3s ，HLS 延迟： 20s 
-        + [2017年6月7日 下午 16:00 ] 代码优化,该页面进行过优化`play2video2.html`，默认静音播放
-
-#### Video-dev-Hls
-+ [https://github.com/video-dev/hls.js](https://github.com/video-dev/hls.js)
-  
-#### Sewise-Player 播放器
-+   [https://github.com/jackzhang1204/sewise-player](https://github.com/jackzhang1204/sewise-player)
-    
-#### (Push)Play-RTMP-Info (功能比较强大)
-+ 播放RTMP直播流,同时显示直播流的详细信息
+        + [2017年6月7日 下午 16:00 ] 代码优化,该页面进行过优化`play2video2.html`，默认静音播放  
 
 ##  音频和视频技术文档
 * [HLS-iOS视频播放服务架构深入探究（二）](https://yangchao0033.github.io/blog/2016/02/14/hls-2/)
 * [HLS-iOS视频播放服务架构深入探究（一）](https://yangchao0033.github.io/blog/2016/01/29/hls-1/)  
 * [HTTP Live Streaming (HLS) - 概念](https://www.jianshu.com/p/2ce402a485ca)  
-+   [实时流式传输网络音频和视频](https://developer.mozilla.org/en-  US/Apps/Fundamentals/Audio_and_video_delivery/Live_streaming_web_audio_and_video)
-+   服务器端流媒体技术
-    +   [GStreamer](https://gstreamer.freedesktop.org/)
-    +   [Nginx RTMP模块](https://github.com/arut/nginx-rtmp-module)    
-    +   [SHOUTcast](http://en.wikipedia.org/wiki/SHOUTcast) 
+* 服务器端流媒体技术
+  * [GStreamer](https://gstreamer.freedesktop.org/)  
+  * [Nginx RTMP模块](https://github.com/arut/nginx-rtmp-module)  
+  * [SHOUTcast](http://en.wikipedia.org/wiki/SHOUTcast)
 +   [为 HTML 5 视频提供的 DASH 自适应串流](https://developer.mozilla.org/zh-CN/docs/Web/HTML/DASH_Adaptive_Streaming_for_HTML_5_Video)    
 +   [HTTP访问控制（CORS）](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Access_control_CORS)
 +   [使用 canvas 处理视频](https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API/Manipulating_video_using_canvas)
