@@ -24,18 +24,18 @@
 ![Markdown2](/Images/aliyun-viedo-upload.svg)   
 ## :four_leaf_clover: 更新列表  
 
-* 2018年8月31日 星期五   
+* :six: 2018年8月31日 星期五   
   * [自定义音频播放器的实现](https://hehuiyun.github.io/2018/07/27/%E8%87%AA%E5%AE%9A%E4%B9%89%E9%9F%B3%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8%E7%9A%84%E5%AE%9E%E7%8E%B0/#more)  
   * [HLS-iOS视频播放服务架构深入探究（二）](https://yangchao0033.github.io/blog/2016/02/14/hls-2/)
   * [HLS-iOS视频播放服务架构深入探究（一）](https://yangchao0033.github.io/blog/2016/01/29/hls-1/)  
   * [HTTP Live Streaming (HLS) - 概念](https://www.jianshu.com/p/2ce402a485ca) 
-* 2018年3月22日 星期五 
+* :five: 2018年3月22日 星期五 
   * [视频插件 video.js的用法](http://www.jq22.com/jquery-info404)  
   * [视频直播常见问题与解决办法汇总](https://yq.aliyun.com/articles/511196)  
   * [在Ubuntu 14.04上安装Nginx-RTMP](https://www.vultr.com/docs/setup-nginx-rtmp-on-ubuntu-14-04)  
-* 2018年1月16日 星期二 [音视频解决方案 NGINX-RTMP-TS-DASH](https://github.com/Tinywan/NGINX-RTMP-TS-DASH)  
-* 2017年04月18日 星期二 [解决VideoJs阿里云直播和点播跨域问题](http://www.cnblogs.com/tinywan/p/6234463.html)
-* 2017年06月06日 星期二 开源的播放器  
+* :four: 2018年1月16日 星期二 [音视频解决方案 NGINX-RTMP-TS-DASH](https://github.com/Tinywan/NGINX-RTMP-TS-DASH)  
+* :three: 2017年04月18日 星期二 [解决VideoJs阿里云直播和点播跨域问题](http://www.cnblogs.com/tinywan/p/6234463.html)
+* :two: 2017年06月06日 星期二 开源的播放器  
   * :computer: [Aliplayer 播放器](https://player.alicdn.com/aliplayer/index.html)
   * :computer: [Video-dev-Hls 播放器 ](https://github.com/video-dev/hls.js)  
   * :computer: [ Sewise-Player 播放器](https://github.com/jackzhang1204/sewise-player)  
@@ -46,16 +46,16 @@
   * [mediaelement player 播放器](https://github.com/mediaelement/mediaelement)  
     * 支持格式：`支持MP4，WebM和MP3以及HLS，Dash，YouTube，Facebook，SoundCloud和其他HTML5 MediaElement API的HTML5 <audio>或<video>播放器，可在所有浏览器中实现一致的UI`  
     * :computer:  [在线预览](http://github.tinywan.com/html5-dash-hls-rtmp/MediaElement/index.html)
-* 2017年06月07日 星期三 Play-RTMP-HLS-Stream 代码方法优化
-### :tropical_fish: 直播源
+* :one: 2017年06月07日 星期三 Play-RTMP-HLS-Stream 代码方法优化
+###  :tomato:  直播源  
 +  HLS-001：`http://hls-live.jia.360.cn/live_jia_public/_LC_RE_non_3605277091515101384821337866_BX/index.m3u8`
 +   香港卫视&emsp;`http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8`
 +   CCTV1高清&emsp;`http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8`
 +   CCTV5高清&emsp;`http://ivi.bupt.edu.cn/hls/cctv5hd.m3u8`
 +   杭康&emsp;`http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8`
-### :tropical_fish: 详细介绍
-+   以下测试延迟多为局域网测试环境（线上为阿里云平台测试）
-+   M3U8 直播或者点播DEMO
+### :tropical_fish: 详细介绍  
++   以下测试延迟多为局域网测试环境（线上为阿里云平台测试）  
++   M3U8 直播或者点播DEMO  
 ### :sunny: VideoJs-M3U8
 + [x] 1、支持直播流：HSL的 m3u8   
 + [x] 2、如何使用：直接下载即可使用,注意点： m3u8 播放必须放在服务器下面  
@@ -139,7 +139,7 @@
         + [2017年4月10日 下午 16:00 ] 局域网的HSL和RTMP流延迟的测试，测试结果：RTMP 延迟：3s ，HLS 延迟： 20s 
         + [2017年6月7日 下午 16:00 ] 代码优化,该页面进行过优化`play2video2.html`，默认静音播放  
 
-##  音频和视频技术文档
+## :apple: 音频和视频技术文档
 * [HLS-iOS视频播放服务架构深入探究（二）](https://yangchao0033.github.io/blog/2016/02/14/hls-2/)
 * [HLS-iOS视频播放服务架构深入探究（一）](https://yangchao0033.github.io/blog/2016/01/29/hls-1/)  
 * [HTTP Live Streaming (HLS) - 概念](https://www.jianshu.com/p/2ce402a485ca)  
@@ -158,7 +158,7 @@
 +   [Twitch如何实现转码器比FFmepg性能提升65%？（上）](http://mp.weixin.qq.com/s/F7BBKM5heMu6EN705N504A)        
 +   [Twitch如何实现转码器比FFmpeg性能提升65%？（下）](http://mp.weixin.qq.com/s/BCMLzV9MlOjsnHzzfkTKkA)     
     
-## FFmpeg HLS 命令记录
+## :melon: FFmpeg HLS 命令记录
 +   [https://github.com/video-dev/hls.js](https://github.com/video-dev/hls.js)
 +   [官方文档http://www.ffmpeg.org/ffmpeg-formats.html](http://www.ffmpeg.org/ffmpeg-formats.html)
 +   `hls_segment_filename` 文件名
