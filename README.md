@@ -1,10 +1,29 @@
-####  :bouquet: 多媒体架构设计
-![多媒体架构设计](/Images/video-system.png)    
-####  :rose: 点播架构设计
-![Markdown](/Images/vod-system.png) 
-####  :rose: 点播流程图
-![Markdown2](/Images/aliyun-viedo-upload.svg) 
-### :hibiscus:  更新列表
+##  :bouquet: 多媒体架构设计  
+![多媒体架构设计](/Images/video-system.png)  
+###### :bird: 支持的直播流输入协议  
+* RTMP 用于拉取和发布的流  
+* RTSP 为拉和宣布的流  
+* 用于HTTP和UDP流的 MPEG-TS  
+* SRT 用于听，拉和集合模式  
+* UDT 用于听，拉和集合模式  
+* HLS 为拉流  
+###### :baby_chick: 单路路实时编码流传递（RTMP）  
+![单路路实时编码流传递](/Images/live_streaming_big.png)
+###### :penguin: 多路实时编码流传递（RTMP）  
+![多路实时编码流传递](/Images/rtmp-republishing_big.png)  
+
+######  :chicken: HLS、MPEG-DASH多路输入/输出流   
+![Markdown](/Images/rtmp-republishing-hls-dash_big.png)  
+
+######  :hatched_chick: 通过SSL加密和公开HLS媒体的来源（HLS）  
+![Markdown](/Images/http_restreaming_big.png)  
+
+##  :hibiscus: 点播架构设计  
+![Markdown](/Images/vod-system.png)   
+## :cherry_blossom: 点播流程图  
+![Markdown2](/Images/aliyun-viedo-upload.svg)   
+## :four_leaf_clover: 更新列表  
+
 * 2018年8月31日 星期五   
   * [自定义音频播放器的实现](https://hehuiyun.github.io/2018/07/27/%E8%87%AA%E5%AE%9A%E4%B9%89%E9%9F%B3%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8%E7%9A%84%E5%AE%9E%E7%8E%B0/#more)  
   * [HLS-iOS视频播放服务架构深入探究（二）](https://yangchao0033.github.io/blog/2016/02/14/hls-2/)
