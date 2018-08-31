@@ -45,8 +45,8 @@
     *  :computer:  [在线预览2](http://github.tinywan.com/html5-dash-hls-rtmp/clappr/index2.html)  
   * [mediaelement player 播放器](https://github.com/mediaelement/mediaelement)  
     * 支持格式：`支持MP4，WebM和MP3以及HLS，Dash，YouTube，Facebook，SoundCloud和其他HTML5 MediaElement API的HTML5 <audio>或<video>播放器，可在所有浏览器中实现一致的UI`  
-    * :computer:  [在线预览1](http://github.tinywan.com/html5-dash-hls-rtmp/MediaElement/index.html)  
-    * :computer:  [在线预览2](http://github.tinywan.com/html5-dash-hls-rtmp/MediaElement/index1.html)  
+    * :computer:  [在线预览1](http://github.tinywan.com/html5-dash-hls-rtmp/MediaElement/index1.html)  
+    * :computer:  [在线预览2](http://github.tinywan.com/html5-dash-hls-rtmp/MediaElement/index2.html)  
 * :one: 2017年06月07日 星期三 Play-RTMP-HLS-Stream 代码方法优化
 ###  :tomato:  直播源  
 +  HLS-001：`http://hls-live.jia.360.cn/live_jia_public/_LC_RE_non_3605277091515101384821337866_BX/index.m3u8`
