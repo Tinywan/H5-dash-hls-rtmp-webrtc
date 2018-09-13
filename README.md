@@ -44,12 +44,10 @@
   * :computer: [ Sewise-Player 播放器](https://github.com/jackzhang1204/sewise-player)  
   * :computer: [clappr 播放器](https://github.com/clappr/clappr)   
     *  支持格式：`hls, dash, ogg, webm, mp4, rtmp either live or video on demand`   
-    *  :computer:  [在线预览1](http://github.tinywan.com/html5-dash-hls-rtmp/clappr/index.html)  
-    *  :computer:  [在线预览2](http://github.tinywan.com/html5-dash-hls-rtmp/clappr/index2.html)  
+    *  :computer:  [在线预览](http://github.tinywan.com/html5-dash-hls-rtmp/clappr/index1.html)  
   * [mediaelement player 播放器](https://github.com/mediaelement/mediaelement)  
     * 支持格式：`支持MP4，WebM和MP3以及HLS，Dash，YouTube，Facebook，SoundCloud和其他HTML5 MediaElement API的HTML5 <audio>或<video>播放器，可在所有浏览器中实现一致的UI`  
-    * :computer:  [在线预览1](http://github.tinywan.com/html5-dash-hls-rtmp/MediaElement/index1.html)  
-    * :computer:  [在线预览2](http://github.tinywan.com/html5-dash-hls-rtmp/MediaElement/index2.html)  
+    * :computer:  [在线预览](http://github.tinywan.com/html5-dash-hls-rtmp/MediaElement/index1.html)  
 * :one: 2017年06月07日 星期三 Play-RTMP-HLS-Stream 代码方法优化
 ###  :tomato:  直播源  
 +  HLS-001：`http://hls-live.jia.360.cn/live_jia_public/_LC_RE_non_3605277091515101384821337866_BX/index.m3u8`
@@ -161,7 +159,7 @@
 +   [怎么让不可靠的UDP可靠？](http://mp.weixin.qq.com/s/-yJH782XEnaezr7NWu8lIw)        
 +   [Twitch如何实现转码器比FFmepg性能提升65%？（上）](http://mp.weixin.qq.com/s/F7BBKM5heMu6EN705N504A)        
 +   [Twitch如何实现转码器比FFmpeg性能提升65%？（下）](http://mp.weixin.qq.com/s/BCMLzV9MlOjsnHzzfkTKkA)     
-    
+  
 ## :melon: FFmpeg HLS 命令记录
 +   [https://github.com/video-dev/hls.js](https://github.com/video-dev/hls.js)
 +   [官方文档http://www.ffmpeg.org/ffmpeg-formats.html](http://www.ffmpeg.org/ffmpeg-formats.html)

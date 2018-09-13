@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Clappr plugin dev tutorial 1 - Hello World</title>
+    <script type="text/javascript" src="clappr.js"></script>
+</head>
+
+<body>
+    <h1>http://www.2019vod.com/hls/1.mp4/index.m3u8</h1>
+    <div id="player"></div>
+    <script>
+        var HelloWorld = Clappr.UIContainerPlugin.extend({
+            name: 'hello_world',
+            initialize: function () {
+                this.render();
+            },
+            bindEvents: function () {
+                this.listenTo(this.container, Clappr.Events.CONTAINER_PAUSE, this.show);
+                this.listenTo(this.container, Clappr.Events.CONTAINER_PLAY, this.hide);
+            },
+
+            hide: function () {
+                this.$el.hide();
+            },
+            show: function () {
+                this.$el.show();
+            },
+            render: function () {
+                this.$el.html('Hello World!');
+                this.$el.css('font-size', '100px');
+                this.$el.css('color', 'white');
+                this.$el.css('background-color', 'red');
+                this.$el.css('position', 'relative');
+                this.container.$el.append(this.$el);
+                this.hide();
+                return this;
+            }
+        });
+
+
+        var player = new Clappr.Player({
+            source: "https://yunqivedio.alicdn.com/2017yq/v2/0x0/96d79d3f5400514a6883869399708e11/96d79d3f5400514a6883869399708e11.m3u8",
+            poster: "https://img.alicdn.com/tfs/TB1t5NHlgoQMeJjy1XaXXcSsFXa-1920-1080.jpg",
+            watermark: "logo.png",
+            position: 'top-right',
+            parentId: "#player",
+            plugins: [HelloWorld]
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Clappr.Player</title>
+    <script src="clappr.min.js"></script>
+</head>
+
+<body>
+    <div id="player"></div>
+    <script>
+        var player = new Clappr.Player({
+            source: "https://yunqivedio.alicdn.com/2017yq/v2/0x0/96d79d3f5400514a6883869399708e11/96d79d3f5400514a6883869399708e11.m3u8",
+            poster: "https://img.alicdn.com/tfs/TB1t5NHlgoQMeJjy1XaXXcSsFXa-1920-1080.jpg",
+            gaAccount: 'UA-44332211-1',
+            gaTrackerName: 'MyPlayerInstance',
+            watermark: "logo.png",
+            hideVolumeBar: true,
+            position: 'top-right',
+            parentId: "#player"
+        });
+    </script>
+</body>
+
+</html>

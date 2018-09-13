@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MediaElement.js 3.0 - audio/video unification library</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <style>
+
+        html, body {
+            overflow-x: hidden;
+        }
+
+        #container {
+            padding: 0 20px 50px;
+        }
+
+        .error {
+            color: red;
+        }
+
+        a {
+            word-wrap: break-word;
+        }
+
+        code {
+            font-size: 0.8em;
+        }
+
+        #player2-container .mejs__time-buffering, #player2-container .mejs__time-current, #player2-container .mejs__time-handle,
+        #player2-container .mejs__time-loaded, #player2-container .mejs__time-hovered, #player2-container .mejs__time-marker, #player2-container .mejs__time-total {
+            height: 2px;
+        }
+
+        #player2-container .mejs__time-total {
+            margin-top: 9px;
+        }
+
+        #player2-container .mejs__time-handle {
+            left: -5px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #ffffff;
+            top: -5px;
+            cursor: pointer;
+            display: block;
+            position: absolute;
+            z-index: 2;
+            border: none;
+        }
+
+        #player2-container .mejs__time-handle-content {
+            top: 0;
+            left: 0;
+            width: 12px;
+            height: 12px;
+        }
+    </style>
+    <link rel="stylesheet" href="build/mediaelementplayer.css">
+    <link rel="stylesheet" href="build/mediaelementplayer.min.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <section>
+            <h1>MediaElement.js</h1>
+
+            <br>
+            <div class="players" id="player1-container">
+
+                <div class="media-wrapper">
+                    <video id="player1" width="640" height="360" style="max-width:100%;" poster="http://oss.tinywan.com/uploads/20171018/fd5a8fd33590f731ff453c8066a1e8e0.png"
+                        preload="none" controls playsinline webkit-playsinline>
+                        <source src="https://cloud.video.taobao.com/play/u/10654505/p/1/e/6/t/1/50033940911.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <br>
+                <div>
+                    <label>Sources
+                        <select name="sources">
+                            <!--<option value="http://oss.tinywan.com/data/201710008/video/1509184568478.mp4">MP4</option>-->
+                            <option value="http://nginx-vod.tinywan.com:8386/stream/http/oss.tinywan.com/data/201710008/video/1509184568478.mp4/index.m3u8">
+                                HLS
+                            </option>
+                            <option value="http://www.streambox.fr/playlists/test_001/stream.m3u8">HLS</option>
+                        </select>
+                    </label>
+                </div>
+                <br>
+                <div class="player-info">
+                    <div id="player1-rendername">
+                        <p><strong>Source</strong>: <span class="src"><a href="https://cloud.video.taobao.com/play/u/10654505/p/1/e/6/t/1/50033940911.mp4"
+                                    target="_blank">http://oss.tinywan.com/data/201710008/video/1509184568478.mp4</a></span>
+                        </p>
+                        <p><strong>Renderer</strong>: <span class="renderer">html5</span></p>
+                        <p class="error"></p>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <script src="build/mediaelement-and-player.js"></script>
+    <script src="build/renderers/twitch.js"></script>
+    <script src="build/lang/zh-cn.js"></script>
+    <script src="demo.js"></script>
+</body>
+
+</html>
