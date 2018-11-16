@@ -18,18 +18,12 @@
 ######  :hatched_chick: 通过SSL加密和公开HLS媒体的来源（HLS）  
 ![Markdown](/Images/http_restreaming_big.png)  
 
-##  :hibiscus: 点播设计  
+##  :hibiscus: 点播架构设计  
 ![Markdown](/Images/vod-system.png)   
-
+## :cherry_blossom: 点播流程图  
+![Markdown2](/Images/aliyun-viedo-upload.svg)   
 ## :four_leaf_clover: 更新列表  
-* :eight: 2018年11月17日 星期五  
-  * [编解码器之战：AV1、HEVC、VP9和VVC](https://mp.weixin.qq.com/s/HNDRciEZ-ldtrumbR68BmA)  
-  * [FFmpeg在Intel GPU上的硬件加速与优化](https://mp.weixin.qq.com/s/VMbV_gf-IU5m3iUI6HyBMA)  
-  * [下一代低延时直播CDN：HLS、RTMP 与UDP +WebRTC](https://mp.weixin.qq.com/s/uAVDVkKbV2cGE_gLcLx4WA)  
-* :seven: 2018年9月13日 星期四  
-  * [RTMP直播应用与延时分析](https://blog.csdn.net/u014162133/article/details/82256033)  
-  * [基于RTMP数据传输协议的实时流媒体技术研究](https://cloud.tencent.com/developer/article/1199947)  
-  * [RTSP协议转换RTMP直播协议](https://www.jianshu.com/p/791963287067)  
+
 * :six: 2018年8月31日 星期五   
   * [自定义音频播放器的实现](https://hehuiyun.github.io/2018/07/27/%E8%87%AA%E5%AE%9A%E4%B9%89%E9%9F%B3%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8%E7%9A%84%E5%AE%9E%E7%8E%B0/#more)  
   * [HLS-iOS视频播放服务架构深入探究（二）](https://yangchao0033.github.io/blog/2016/02/14/hls-2/)
